@@ -1,0 +1,1136 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Tue Sep 24 14:34:22 2024
+# Process ID: 36704
+# Current directory: /home/madsr2d2/DTU/dds/lab1/lab1
+# Command line: vivado
+# Log file: /home/madsr2d2/DTU/dds/lab1/lab1/vivado.log
+# Journal file: /home/madsr2d2/DTU/dds/lab1/lab1/vivado.jou
+# Running On        :madsr2d2
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 22.04.5 LTS
+# Processor Detail  :13th Gen Intel(R) Core(TM) i7-1360P
+# CPU Frequency     :1156.790 MHz
+# CPU Physical cores:12
+# CPU Logical cores :16
+# Host memory       :33254 MB
+# Swap memory       :2147 MB
+# Total Virtual     :35401 MB
+# Available Virtual :32752 MB
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+create_project task_2 /home/madsr2d2/DTU/dds/as1/task_2 -part xc7z010clg400-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2024.1/data/ip'.
+set_property board_part digilentinc.com:zybo:part0:2.0 [current_project]
+set_property target_language VHDL [current_project]
+add_files -norecurse {/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd /home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files /home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd] -no_script -reset -force -quiet
+remove_files  /home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd
+export_ip_user_files -of_objects  [get_files /home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd] -no_script -reset -force -quiet
+remove_files  /home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd
+add_files -norecurse {/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd /home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd /home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/debounce.vhd}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse /home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+update_compile_order -fileset sim_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+update_compile_order -fileset sim_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'gcd_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/madsr2d2/DTU/dds/as1/task_2/task_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/tools/Xilinx/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'gcd_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/madsr2d2/DTU/dds/as1/task_2/task_2.sim/sim_1/behav/xsim'
+xvhdl --incr --relax -prj gcd_tb_vhdl.prj
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/debounce.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'debounce'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'gcd'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'gcd_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'gcd_tb'
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/madsr2d2/DTU/dds/as1/task_2/task_2.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot gcd_tb_behav xil_defaultlib.gcd_tb -log elaborate.log
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2024.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot gcd_tb_behav xil_defaultlib.gcd_tb -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package std.env
+Compiling architecture behavioral of entity xil_defaultlib.debounce [\debounce(n=2)\]
+Compiling architecture fsmd of entity xil_defaultlib.gcd [gcd_default]
+Compiling architecture fsmd_io of entity xil_defaultlib.gcd_top [\gcd_top(n=2)\]
+Compiling architecture behaviour of entity xil_defaultlib.gcd_tb
+Built simulation snapshot gcd_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/madsr2d2/DTU/dds/as1/task_2/task_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "gcd_tb_behav -key {Behavioral:sim_1:Functional:gcd_tb} -tclbatch {gcd_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source gcd_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'gcd_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'gcd_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/madsr2d2/DTU/dds/as1/task_2/task_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/tools/Xilinx/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'gcd_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/madsr2d2/DTU/dds/as1/task_2/task_2.sim/sim_1/behav/xsim'
+xvhdl --incr --relax -prj gcd_tb_vhdl.prj
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/madsr2d2/DTU/dds/as1/task_2/task_2.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot gcd_tb_behav xil_defaultlib.gcd_tb -log elaborate.log
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2024.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot gcd_tb_behav xil_defaultlib.gcd_tb -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/madsr2d2/DTU/dds/as1/task_2/task_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "gcd_tb_behav -key {Behavioral:sim_1:Functional:gcd_tb} -tclbatch {gcd_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source gcd_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'gcd_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+run -all
+Note: Tests succeeded!
+Time: 11780 ns  Iteration: 0  Process: /gcd_tb/line__70  File: /home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd
+$stop called at time : 11780 ns : File "/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd" Line 127
+run -all
+Note: Tests succeeded!
+Time: 23560 ns  Iteration: 0  Process: /gcd_tb/line__70  File: /home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd
+$stop called at time : 23560 ns : File "/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd" Line 127
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+run -all
+Note: Tests succeeded!
+Time: 35340 ns  Iteration: 0  Process: /gcd_tb/line__70  File: /home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd
+$stop called at time : 35340 ns : File "/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd" Line 127
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+run -all
+Note: Tests succeeded!
+Time: 47120 ns  Iteration: 0  Process: /gcd_tb/line__70  File: /home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd
+$stop called at time : 47120 ns : File "/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd" Line 127
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+run -all
+Note: Tests succeeded!
+Time: 58900 ns  Iteration: 0  Process: /gcd_tb/line__70  File: /home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd
+$stop called at time : 58900 ns : File "/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd" Line 127
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+run -all
+Note: Tests succeeded!
+Time: 70680 ns  Iteration: 0  Process: /gcd_tb/line__70  File: /home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd
+$stop called at time : 70680 ns : File "/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd" Line 127
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+run -all
+Note: Tests succeeded!
+Time: 82460 ns  Iteration: 0  Process: /gcd_tb/line__70  File: /home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd
+$stop called at time : 82460 ns : File "/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd" Line 127
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+run -all
+Note: Tests succeeded!
+Time: 94240 ns  Iteration: 0  Process: /gcd_tb/line__70  File: /home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd
+$stop called at time : 94240 ns : File "/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd" Line 127
+add_bp {/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd} 34
+remove_bps -file {/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd} -line 34
+add_bp {/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd} 34
+remove_bps -file {/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd} -line 34
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+run -all
+Note: Tests succeeded!
+Time: 106020 ns  Iteration: 0  Process: /gcd_tb/line__70  File: /home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd
+$stop called at time : 106020 ns : File "/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd" Line 127
+add_files -fileset constrs_1 -norecurse /home/madsr2d2/Downloads/ZYBO.xdc
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+INFO: [Common 17-14] Message 'filemgmt 56-199' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+launch_runs synth_1 -jobs 8
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Tue Sep 24 19:33:10 2024] Launched synth_1...
+Run output will be captured here: /home/madsr2d2/DTU/dds/as1/task_2/task_2.runs/synth_1/runme.log
+run -all
+Note: Tests succeeded!
+Time: 117800 ns  Iteration: 0  Process: /gcd_tb/line__70  File: /home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd
+$stop called at time : 117800 ns : File "/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd" Line 127
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Tue Sep 24 19:34:31 2024] Launched synth_1...
+Run output will be captured here: /home/madsr2d2/DTU/dds/as1/task_2/task_2.runs/synth_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Tue Sep 24 19:37:45 2024] Launched synth_1...
+Run output will be captured here: /home/madsr2d2/DTU/dds/as1/task_2/task_2.runs/synth_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+run -all
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'gcd_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/madsr2d2/DTU/dds/as1/task_2/task_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/tools/Xilinx/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'gcd_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/madsr2d2/DTU/dds/as1/task_2/task_2.sim/sim_1/behav/xsim'
+xvhdl --incr --relax -prj gcd_tb_vhdl.prj
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'gcd'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'gcd_top'
+ERROR: [VRFC 10-8755] argument of operator "&" cannot be an 'others' aggregate [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:75]
+ERROR: [VRFC 10-9458] unit 'fsmd_io' is ignored due to previous errors [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:23]
+INFO: [VRFC 10-8704] VHDL file '/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd' is ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'/home/madsr2d2/DTU/dds/as1/task_2/task_2.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '/home/madsr2d2/DTU/dds/as1/task_2/task_2.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'gcd_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/madsr2d2/DTU/dds/as1/task_2/task_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/tools/Xilinx/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'gcd_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/madsr2d2/DTU/dds/as1/task_2/task_2.sim/sim_1/behav/xsim'
+xvhdl --incr --relax -prj gcd_tb_vhdl.prj
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'gcd'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'gcd_top'
+ERROR: [VRFC 10-8755] argument of operator "&" cannot be an 'others' aggregate [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:75]
+ERROR: [VRFC 10-9458] unit 'fsmd_io' is ignored due to previous errors [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:23]
+INFO: [VRFC 10-8704] VHDL file '/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd' is ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'/home/madsr2d2/DTU/dds/as1/task_2/task_2.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '/home/madsr2d2/DTU/dds/as1/task_2/task_2.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Tue Sep 24 19:45:46 2024] Launched synth_1...
+Run output will be captured here: /home/madsr2d2/DTU/dds/as1/task_2/task_2.runs/synth_1/runme.log
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'gcd_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/madsr2d2/DTU/dds/as1/task_2/task_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/tools/Xilinx/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'gcd_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/madsr2d2/DTU/dds/as1/task_2/task_2.sim/sim_1/behav/xsim'
+xvhdl --incr --relax -prj gcd_tb_vhdl.prj
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'gcd'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'gcd_top'
+ERROR: [VRFC 10-8755] argument of operator "&" cannot be an 'others' aggregate [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:75]
+ERROR: [VRFC 10-9458] unit 'fsmd_io' is ignored due to previous errors [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:23]
+INFO: [VRFC 10-8704] VHDL file '/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd' is ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'/home/madsr2d2/DTU/dds/as1/task_2/task_2.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '/home/madsr2d2/DTU/dds/as1/task_2/task_2.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'gcd_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/madsr2d2/DTU/dds/as1/task_2/task_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/tools/Xilinx/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'gcd_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/madsr2d2/DTU/dds/as1/task_2/task_2.sim/sim_1/behav/xsim'
+xvhdl --incr --relax -prj gcd_tb_vhdl.prj
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'gcd'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'gcd_top'
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/madsr2d2/DTU/dds/as1/task_2/task_2.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot gcd_tb_behav xil_defaultlib.gcd_tb -log elaborate.log
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2024.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot gcd_tb_behav xil_defaultlib.gcd_tb -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package std.env
+Compiling architecture behavioral of entity xil_defaultlib.debounce [\debounce(n=2)\]
+Compiling architecture fsmd of entity xil_defaultlib.gcd [gcd_default]
+Compiling architecture fsmd_io of entity xil_defaultlib.gcd_top [\gcd_top(n=2)\]
+Compiling architecture behaviour of entity xil_defaultlib.gcd_tb
+Built simulation snapshot gcd_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/madsr2d2/DTU/dds/as1/task_2/task_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "gcd_tb_behav -key {Behavioral:sim_1:Functional:gcd_tb} -tclbatch {gcd_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source gcd_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'gcd_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+run -all
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run: Time (s): cpu = 00:00:19 ; elapsed = 00:00:15 . Memory (MB): peak = 9076.820 ; gain = 19.000 ; free physical = 19649 ; free virtual = 29155
+INFO: [Common 17-344] 'run' was cancelled
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/debounce.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/debounce.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/debounce.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/debounce.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/debounce.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/debounce.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/debounce.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/debounce.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd_top.vhd:]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'gcd_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/madsr2d2/DTU/dds/as1/task_2/task_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/tools/Xilinx/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'gcd_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/madsr2d2/DTU/dds/as1/task_2/task_2.sim/sim_1/behav/xsim'
+xvhdl --incr --relax -prj gcd_tb_vhdl.prj
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'gcd'
+ERROR: [VRFC 10-1449] this construct is only supported in VHDL 1076-2008 [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:25]
+ERROR: [VRFC 10-9458] unit 'fsmd' is ignored due to previous errors [/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd:16]
+INFO: [VRFC 10-8704] VHDL file '/home/madsr2d2/DTU/dds/as1/02203_A1_code/task2/gcd.vhd' is ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'/home/madsr2d2/DTU/dds/as1/task_2/task_2.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '/home/madsr2d2/DTU/dds/as1/task_2/task_2.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Sep 24 19:49:17 2024...

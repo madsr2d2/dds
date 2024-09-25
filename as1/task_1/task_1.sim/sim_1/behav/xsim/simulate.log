@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+Note: Tests succeeded!
+Time: 520 ns  Iteration: 0  Process: /gcd_tb/line__70  File: /home/madsr2d2/DTU/dds/as1/02203_A1_code/task1/gcd_tb.vhd
+$stop called at time : 520 ns : File "/home/madsr2d2/DTU/dds/as1/02203_A1_code/task1/gcd_tb.vhd" Line 127

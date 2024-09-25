@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Tue Sep 17 17:23:07 2024
+# Process ID: 370896
+# Current directory: /home/madsr2d2/project_1/project_1.runs/synth_1
+# Command line: vivado -log full_adder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source full_adder.tcl
+# Log file: /home/madsr2d2/project_1/project_1.runs/synth_1/full_adder.vds
+# Journal file: /home/madsr2d2/project_1/project_1.runs/synth_1/vivado.jou
+# Running On        :madsr2d2
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 22.04.4 LTS
+# Processor Detail  :13th Gen Intel(R) Core(TM) i7-1360P
+# CPU Frequency     :4984.565 MHz
+# CPU Physical cores:12
+# CPU Logical cores :16
+# Host memory       :33254 MB
+# Swap memory       :2147 MB
+# Total Virtual     :35401 MB
+# Available Virtual :28670 MB
+#-----------------------------------------------------------
+source full_adder.tcl -notrace
