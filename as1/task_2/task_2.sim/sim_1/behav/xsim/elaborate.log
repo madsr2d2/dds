@@ -14,7 +14,7 @@ Compiling package ieee.std_logic_1164
 Compiling package ieee.numeric_std
 Compiling package std.env
 Compiling architecture behavioral of entity xil_defaultlib.debounce [\debounce(n=2)\]
-Compiling architecture fsmd of entity xil_defaultlib.gcd [gcd_default]
+Compiling architecture fsmd of entity xil_defaultlib.gcd_opt_2 [gcd_opt_2_default]
 Compiling architecture fsmd_io of entity xil_defaultlib.gcd_top [\gcd_top(n=2)\]
 Compiling architecture behaviour of entity xil_defaultlib.gcd_tb
 Built simulation snapshot gcd_tb_behav

@@ -43,7 +43,7 @@ architecture fsmd_io of gcd_top is
     );
   end component;
 
-  component gcd
+  component gcd_opt_2
     port (
       clk   : in std_logic;              -- the clock signal.
       reset : in  std_logic;             -- reset the module.
@@ -61,7 +61,7 @@ begin
     u1 : debounce 
         generic map (n => n) 
         port map (clk => clk, reset => reset, sw => req, db_level => db_req, db_tick => open);
-    u2 : gcd 
+    u2 : gcd_opt_2
         port map (clk => clk, reset => reset, req => db_req, AB => AB, ack => ack, C => C);
 
 end fsmd_io;

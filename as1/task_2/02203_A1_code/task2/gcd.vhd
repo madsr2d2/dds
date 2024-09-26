@@ -22,6 +22,10 @@ architecture fsmd of gcd is
   -- Registers for operands and result
   signal reg_a, next_reg_a, reg_b, next_reg_b : unsigned(15 downto 0);
 
+  -- Registers for ack and C outputs
+  signal ack_reg, next_ack : std_logic;
+  signal C_reg, next_C     : unsigned(15 downto 0);
+
 begin
 
   -------------------------------------------------------------------
@@ -33,8 +37,8 @@ begin
     next_state <= state;
     next_reg_a <= reg_a;
     next_reg_b <= reg_b;
-    ack <= '0';  -- Default: ack is deasserted
-    C <= (others => '0');  -- Default output
+    next_ack <= ack_reg;   -- Keep the ack signal stable by default
+    next_C <= C_reg;       -- Keep the C signal stable by default
 
     case state is
       -- S0 (Idle) state: wait for req = 1 to start
@@ -46,12 +50,13 @@ begin
       -- S1 (Load A) state: load operand A into regA and set ack to 1
       when S1 =>
         next_reg_a <= AB;  -- Load A into reg_a
-        ack <= '1';   -- Acknowledge that operand A is loaded
+        next_ack <= '1';   -- Acknowledge that operand A is loaded
         next_state <= S2;
 
       -- S2 (Idle Between Handshakes): wait for req to go low
       when S2 =>
         if req = '0' then
+          next_ack <= '0';  -- Drop ack
           next_state <= S3;  -- Ready to load operand B
         end if;
 
@@ -74,9 +79,10 @@ begin
 
       -- S5 (Output Result) state: output the GCD and set ack
       when S5 =>
-        C <= reg_a;         -- Output the result (GCD is in regA)
-        ack <= '1';    -- Acknowledge that the computation is done
+        next_C <= reg_a;     -- Output the result (GCD is in regA)
+        next_ack <= '1';     -- Acknowledge that the computation is done
         if req = '0' then
+          next_ack <= '0';
           next_state <= S0;  -- Return to idle
         end if;
 
@@ -85,7 +91,7 @@ begin
         next_reg_a <= reg_a - reg_b;
         next_state <= S4;  -- Return to comparison
 
-      -- S7 (Subtract A from B) state: regB := regB - reg_a
+      -- S7 (Subtract A from B) state: regB := reg_b - reg_a
       when S7 =>
         next_reg_b <= reg_b - reg_a;
         next_state <= S4;  -- Return to comparison
@@ -105,12 +111,20 @@ begin
       state <= S0;
       reg_a <= (others => '0');
       reg_b <= (others => '0');
+      ack_reg <= '0';    -- Reset ack signal
+      C_reg <= (others => '0');  -- Reset result output
     elsif rising_edge(clk) then
       -- Update the state and registers on each clock edge
       state <= next_state;
       reg_a <= next_reg_a;
       reg_b <= next_reg_b;
+      ack_reg <= next_ack;  -- Update ack only on clock edge
+      C_reg <= next_C;      -- Update C only on clock edge
     end if;
   end process seq_logic;
+
+  -- Output assignments
+  ack <= ack_reg;  -- Assign the clocked ack signal to output
+  C <= C_reg;      -- Assign the clocked C signal to output
 
 end fsmd;

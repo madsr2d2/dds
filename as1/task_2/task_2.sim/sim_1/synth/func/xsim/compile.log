@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/madsr2d2/DTU/dds/as1/task_2/task_2.sim/sim_1/synth/func/xsim/gcd_tb_func_synth.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'debounce'
+INFO: [VRFC 10-3107] analyzing entity 'gcd'
+INFO: [VRFC 10-3107] analyzing entity 'gcd_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'gcd_tb'
