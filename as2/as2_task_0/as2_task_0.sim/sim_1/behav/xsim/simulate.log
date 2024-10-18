@@ -1,0 +1,3 @@
+Time resolution is 1 ps
+Note: Simulation complete. Buffer is full.
+Time: 940 ns  Iteration: 0  Process: /tb_line_buffer/stimulus_process  File: /home/madsr2d2/DTU/dds/as2/as2_task_0/as2_task_0.srcs/sim_1/new/line_buffer_tb.vhd
