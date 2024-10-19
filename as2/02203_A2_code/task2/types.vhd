@@ -44,10 +44,14 @@ package types is
     constant byte_one  : byte_t := "11111111";
     constant byte_x    : byte_t := "XXXXXXXX";
     constant byte_z    : byte_t := "ZZZZZZZZ";
-    constant line_width    : natural := 352;
-    
+    constant image_width    : natural := 352;
+    constant image_height : natural := 288; 
+    constant C1 : natural := image_width/4;  
+    constant C2 : natural := (image_height - 2) * image_width;
+     
     -- line array
     type line_array_t is array (0 to 351) of byte_t;
+    type array_6 is array (0 to 6) of byte_t; 
 
     constant halfword_zero : halfword_t := byte_zero & byte_zero;
     constant halfword_one  : halfword_t := byte_one & byte_one;
