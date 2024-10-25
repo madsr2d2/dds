@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../02203_A2_code/task2/types.vhd" \
+"../../../../../02203_A2_code/task2/acc2.vhd" \
+"../../../../../02203_A2_code/task2/clock.vhd" \
+"../../../../../02203_A2_code/task2/memory2.vhd" \
+"../../../../../02203_A2_code/task2/test2.vhd" \
+
+# Do not sort compile order
+nosort

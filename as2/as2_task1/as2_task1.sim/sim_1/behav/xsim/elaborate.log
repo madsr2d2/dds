@@ -1,7 +1,7 @@
 Vivado Simulator v2024.1
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: /tools/Xilinx/Vivado/2024.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot line_buffer_tb_behav xil_defaultlib.line_buffer_tb -log elaborate.log 
+Running: /tools/Xilinx/Vivado/2024.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot tb_acc_1_behav xil_defaultlib.tb_acc_1 -log elaborate.log 
 Using 8 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -12,7 +12,9 @@ Compiling package std.standard
 Compiling package std.textio
 Compiling package ieee.std_logic_1164
 Compiling package ieee.numeric_std
-Compiling package xil_defaultlib.types
-Compiling architecture behavioral of entity xil_defaultlib.line_buffer [line_buffer_default]
-Compiling architecture behavioral of entity xil_defaultlib.line_buffer_tb
-Built simulation snapshot line_buffer_tb_behav
+Compiling package xil_defaultlib.types_pkg
+Compiling architecture rtl of entity xil_defaultlib.sobel_filter_8bit [sobel_filter_8bit_default]
+Compiling architecture rtl of entity xil_defaultlib.ram_dp [\ram_dp(data_width=32,addr_width...]
+Compiling architecture rtl of entity xil_defaultlib.ram_buffer_1 [ram_buffer_1_default]
+Compiling architecture behavior of entity xil_defaultlib.tb_acc_1
+Built simulation snapshot tb_acc_1_behav

@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Fri Oct 25 13:18:47 2024
+# Process ID: 1196834
+# Current directory: /home/madsr2d2/DTU/dds/as2/as2_task1
+# Command line: vivado
+# Log file: /home/madsr2d2/DTU/dds/as2/as2_task1/vivado.log
+# Journal file: /home/madsr2d2/DTU/dds/as2/as2_task1/vivado.jou
+# Running On        :madsr2d2
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 22.04.5 LTS
+# Processor Detail  :13th Gen Intel(R) Core(TM) i7-1360P
+# CPU Frequency     :400.000 MHz
+# CPU Physical cores:12
+# CPU Logical cores :16
+# Host memory       :33245 MB
+# Swap memory       :2147 MB
+# Total Virtual     :35393 MB
+# Available Virtual :32356 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/madsr2d2/DTU/dds/as2/as2_task_0/as2_task_0.xpr
+update_compile_order -fileset sources_1

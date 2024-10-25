@@ -2,10 +2,9 @@
 2020.2
 May 22 2024
 18:54:44
-/home/madsr2d2/DTU/dds/as2/02203_A2_code/task2/acc2.vhd,1727727422,vhdl,,,,acc,,,,,,,,
+/home/madsr2d2/DTU/dds/as2/02203_A2_code/task2/acc2.vhd,1728926563,vhdl,,,,acc,,,,,,,,
 /home/madsr2d2/DTU/dds/as2/02203_A2_code/task2/clock.vhd,1727727422,vhdl,,,,clock,,,,,,,,
-/home/madsr2d2/DTU/dds/as2/02203_A2_code/task2/line_buffer.vhd,1729121086,vhdl,/home/madsr2d2/DTU/dds/as2/as2_task_0/as2_task_0.srcs/sim_1/new/line_buffer_tb.vhd,,,line_buffer,,,,,,,,
-/home/madsr2d2/DTU/dds/as2/02203_A2_code/task2/memory2.vhd,1727727422,vhdl,,,,memory2,,,,,,,,
-/home/madsr2d2/DTU/dds/as2/02203_A2_code/task2/test2.vhd,1728917436,vhdl,,,,testbench,,,,,,,,
-/home/madsr2d2/DTU/dds/as2/02203_A2_code/task2/types.vhd,1729118383,vhdl,/home/madsr2d2/DTU/dds/as2/02203_A2_code/task2/line_buffer.vhd;/home/madsr2d2/DTU/dds/as2/as2_task_0/as2_task_0.srcs/sim_1/new/line_buffer_tb.vhd,,,types,,,,,,,,
+/home/madsr2d2/DTU/dds/as2/02203_A2_code/task2/memory2.vhd,1729346359,vhdl,,,,memory2,,,,,,,,
+/home/madsr2d2/DTU/dds/as2/02203_A2_code/task2/test2.vhd,1729148640,vhdl,,,,testbench,,,,,,,,
+/home/madsr2d2/DTU/dds/as2/02203_A2_code/task2/types.vhd,1729349796,vhdl,/home/madsr2d2/DTU/dds/as2/02203_A2_code/task2/acc2.vhd;/home/madsr2d2/DTU/dds/as2/02203_A2_code/task2/test2.vhd,,,types,,,,,,,,
 /home/madsr2d2/DTU/dds/as2/as2_task_0/as2_task_0.srcs/sim_1/new/line_buffer_tb.vhd,1729117004,vhdl,,,,tb_line_buffer,,,,,,,,

@@ -1,4 +1,7 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/madsr2d2/DTU/dds/as2/02203_A2_code/task2/line_buffer.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'line_buffer'
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/madsr2d2/DTU/dds/as2/as2_task_0/as2_task_0.srcs/sim_1/new/line_buffer_tb.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'tb_line_buffer'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/madsr2d2/DTU/dds/as2/02203_A2_code/task2/types.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/madsr2d2/DTU/dds/as2/02203_A2_code/task2/acc2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'acc'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/madsr2d2/DTU/dds/as2/02203_A2_code/task2/memory2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'memory2'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/madsr2d2/DTU/dds/as2/02203_A2_code/task2/test2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'testbench'

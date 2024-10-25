@@ -1,0 +1,14 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../as2_task1.srcs/sources_1/new/types_pkg.vhd" \
+
+vhdl2008 xil_defaultlib  \
+"../../../../as2_task1.srcs/sources_1/new/ram_buffer_1.vhd" \
+"../../../../as2_task1.srcs/sources_1/new/ram_dp.vhd" \
+"../../../../as2_task1.srcs/sources_1/new/sobel_filter_8bit.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../as2_task1.srcs/sim_1/new/tb_sobel_acc_1.vhd" \
+
+# Do not sort compile order
+nosort

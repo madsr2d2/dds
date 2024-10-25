@@ -1,0 +1,755 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Wed Oct 23 23:35:10 2024
+# Process ID: 4860
+# Current directory: /home/madsr2d2/DTU/dds/as2/as2_task1
+# Command line: vivado
+# Log file: /home/madsr2d2/DTU/dds/as2/as2_task1/vivado.log
+# Journal file: /home/madsr2d2/DTU/dds/as2/as2_task1/vivado.jou
+# Running On        :madsr2d2
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 22.04.5 LTS
+# Processor Detail  :13th Gen Intel(R) Core(TM) i7-1360P
+# CPU Frequency     :491.210 MHz
+# CPU Physical cores:12
+# CPU Logical cores :16
+# Host memory       :33245 MB
+# Swap memory       :2147 MB
+# Total Virtual     :35393 MB
+# Available Virtual :34040 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/madsr2d2/DTU/dds/as2/as2_task1/as2_task1.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_sobel_acc_1.tcl
+current_wave_config {Untitled 1}
+add_wave {{/tb_sobel_acc_1/uut/ram_previous/mem}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_sobel_acc_1/uut/ram_current/mem}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_sobel_acc_1/uut/ram_next}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_sobel_acc_1/uut/ram_next/mem}} 
+relaunch_sim
+run 50000 us
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+close_sim
+launch_simulation
+source tb_sobel_acc_1.tcl
+current_wave_config {Untitled 2}
+add_wave {{/tb_sobel_acc_1/uut/ram_previous/din_a}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb_sobel_acc_1/uut/previous_din_a}} 
+relaunch_sim
+run 50000 us
+current_wave_config {Untitled 2}
+add_wave {{/tb_sobel_acc_1/uut/previous_dout_b}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb_sobel_acc_1/uut/current_dout_b}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb_sobel_acc_1/uut/next_dout_b}} 
+relaunch_sim
+run 50000 us
+current_wave_config {Untitled 2}
+add_wave {{/tb_sobel_acc_1/uut/state}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb_sobel_acc_1/uut/sobel_out}} 
+relaunch_sim
+run 50000 us
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+current_wave_config {Untitled 2}
+add_wave {{/tb_sobel_acc_1/uut/previous_dout_b_internal}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb_sobel_acc_1/uut/current_dout_b_internal}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb_sobel_acc_1/uut/next_dout_b_internal}} 
+relaunch_sim
+run 50000 us
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+close_sim
+launch_simulation
+source tb_sobel_acc_1.tcl
+current_wave_config {Untitled 3}
+add_wave {{/tb_sobel_acc_1/uut/ram_previous/dout_b}} 
+current_wave_config {Untitled 3}
+add_wave {{/tb_sobel_acc_1/uut/previous_dout_b}} 
+current_wave_config {Untitled 3}
+add_wave {{/tb_sobel_acc_1/uut/current_dout_b}} 
+current_wave_config {Untitled 3}
+add_wave {{/tb_sobel_acc_1/uut/next_dout_b}} 
+relaunch_sim
+run 50000 us
+current_wave_config {Untitled 3}
+add_wave {{/tb_sobel_acc_1/uut/state}} 
+current_wave_config {Untitled 3}
+add_wave {{/tb_sobel_acc_1/uut/pixel_index}} 
+current_wave_config {Untitled 3}
+add_wave {{/tb_sobel_acc_1/uut/ram_rotation_index}} 
+relaunch_sim
+run 50000 us
+current_wave_config {Untitled 3}
+add_wave {{/tb_sobel_acc_1/uut/ram_previous/din_a}} 
+current_wave_config {Untitled 3}
+add_wave {{/tb_sobel_acc_1/uut/ram_current/din_a}} 
+current_wave_config {Untitled 3}
+add_wave {{/tb_sobel_acc_1/uut/ram_next/din_a}} 
+relaunch_sim
+run 50000 us
+current_wave_config {Untitled 3}
+add_wave {{/tb_sobel_acc_1/uut/ram_next/din_a}} 
+relaunch_sim
+run 50000 us
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+close_sim
+launch_simulation
+source tb_sobel_acc_1.tcl
+current_wave_config {Untitled 4}
+add_wave {{/tb_sobel_acc_1/uut/ram_previous/din_a}} 
+current_wave_config {Untitled 4}
+add_wave {{/tb_sobel_acc_1/uut/ram_current}} 
+current_wave_config {Untitled 4}
+add_wave {{/tb_sobel_acc_1/uut/ram_current/din_a}} 
+current_wave_config {Untitled 4}
+add_wave {{/tb_sobel_acc_1/uut/ram_next/din_a}} 
+current_wave_config {Untitled 4}
+add_wave {{/tb_sobel_acc_1/uut/previous_dout_b_internal}} 
+current_wave_config {Untitled 4}
+add_wave {{/tb_sobel_acc_1/uut/current_dout_b_internal}} 
+current_wave_config {Untitled 4}
+add_wave {{/tb_sobel_acc_1/uut/next_dout_b_internal}} 
+current_wave_config {Untitled 4}
+add_wave {{/tb_sobel_acc_1/uut/state}} 
+current_wave_config {Untitled 4}
+add_wave {{/tb_sobel_acc_1/uut/ram_rotation_index}} 
+current_wave_config {Untitled 4}
+add_wave {{/tb_sobel_acc_1/uut/pixel_index}} 
+current_wave_config {Untitled 4}
+add_wave {{/tb_sobel_acc_1/uut/line_index}} 
+relaunch_sim
+run 50000 us
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+close_sim
+launch_simulation
+source tb_sobel_acc_1.tcl
+current_wave_config {Untitled 5}
+add_wave {{/tb_sobel_acc_1/uut/ram_previous/din_a}} 
+current_wave_config {Untitled 5}
+add_wave {{/tb_sobel_acc_1/uut/ram_current/din_a}} 
+current_wave_config {Untitled 5}
+add_wave {{/tb_sobel_acc_1/uut/ram_next/din_a}} 
+current_wave_config {Untitled 5}
+add_wave {{/tb_sobel_acc_1/uut/previous_dout_b_internal}} 
+current_wave_config {Untitled 5}
+add_wave {{/tb_sobel_acc_1/uut/current_dout_b_internal}} 
+current_wave_config {Untitled 5}
+add_wave {{/tb_sobel_acc_1/uut/next_dout_b_internal}} 
+current_wave_config {Untitled 5}
+add_wave {{/tb_sobel_acc_1/uut/line_index}} 
+current_wave_config {Untitled 5}
+add_wave {{/tb_sobel_acc_1/uut/pixel_index}} 
+current_wave_config {Untitled 5}
+add_wave {{/tb_sobel_acc_1/uut/state}} 
+relaunch_sim
+run 50000 us
+current_wave_config {Untitled 5}
+add_wave {{/tb_sobel_acc_1/uut/sobel_out_0}} 
+current_wave_config {Untitled 5}
+add_wave {{/tb_sobel_acc_1/uut/sobel_out_1}} 
+current_wave_config {Untitled 5}
+add_wave {{/tb_sobel_acc_1/uut/sobel_out_2}} 
+current_wave_config {Untitled 5}
+add_wave {{/tb_sobel_acc_1/uut/sobel_out_3}} 
+relaunch_sim
+run 50000 us
+current_wave_config {Untitled 5}
+add_wave {{/tb_sobel_acc_1/uut/previous_padding_old}} {{/tb_sobel_acc_1/uut/previous_padding_new}} 
+current_wave_config {Untitled 5}
+add_wave {{/tb_sobel_acc_1/uut/current_padding_old}} {{/tb_sobel_acc_1/uut/current_padding_new}} 
+current_wave_config {Untitled 5}
+add_wave {{/tb_sobel_acc_1/uut/next_padding_old}} {{/tb_sobel_acc_1/uut/next_padding_new}} 
+relaunch_sim
+run 50000 us
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+close_sim
+update_compile_order -fileset sim_1
+refresh_design
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_acc_1 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+refresh_design
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+launch_simulation
+source tb_acc_1.tcl
+current_wave_config {Untitled 6}
+add_wave {{/tb_acc_1/uut/current_padding_old}} {{/tb_acc_1/uut/current_padding_new}} 
+current_wave_config {Untitled 6}
+add_wave {{/tb_acc_1/uut/previous_padding_old}} {{/tb_acc_1/uut/previous_padding_new}} 
+current_wave_config {Untitled 6}
+add_wave {{/tb_acc_1/uut/current_padding_old}} {{/tb_acc_1/uut/current_padding_new}} 
+current_wave_config {Untitled 6}
+add_wave {{/tb_acc_1/uut/next_padding_old}} {{/tb_acc_1/uut/next_padding_new}} 
+current_wave_config {Untitled 6}
+add_wave {{/tb_acc_1/uut/pixel_index}} 
+current_wave_config {Untitled 6}
+add_wave {{/tb_acc_1/uut/line_index}} 
+current_wave_config {Untitled 6}
+add_wave {{/tb_acc_1/uut/previous_dout_b_internal}} 
+current_wave_config {Untitled 6}
+add_wave {{/tb_acc_1/uut/current_dout_b_internal}} 
+current_wave_config {Untitled 6}
+add_wave {{/tb_acc_1/uut/next_dout_b_internal}} 
+current_wave_config {Untitled 6}
+add_wave {{/tb_acc_1/uut/ram_rotation_index}} 
+relaunch_sim
+run 50000 us
+current_wave_config {Untitled 6}
+add_wave {{/tb_acc_1/uut/state}} 
+current_wave_config {Untitled 6}
+add_wave {{/tb_acc_1/uut/previous_din_a_internal}} 
+current_wave_config {Untitled 6}
+add_wave {{/tb_acc_1/uut/current_din_a_internal}} 
+current_wave_config {Untitled 6}
+add_wave {{/tb_acc_1/uut/next_din_a_internal}} 
+relaunch_sim
+run 50000 us
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+close_sim
+launch_simulation
+source tb_acc_1.tcl
+current_wave_config {Untitled 7}
+add_wave {{/tb_acc_1/uut/state}} 
+current_wave_config {Untitled 7}
+add_wave {{/tb_acc_1/uut/pixel_index}} 
+current_wave_config {Untitled 7}
+add_wave {{/tb_acc_1/uut/line_index}} 
+current_wave_config {Untitled 7}
+add_wave {{/tb_acc_1/uut/ram_rotation_index}} 
+current_wave_config {Untitled 7}
+add_wave {{/tb_acc_1/uut/previous_dout_b_internal}} 
+current_wave_config {Untitled 7}
+add_wave {{/tb_acc_1/uut/current_dout_b_internal}} 
+current_wave_config {Untitled 7}
+add_wave {{/tb_acc_1/uut/next_dout_b_internal}} 
+relaunch_sim
+run 50000 us
+current_wave_config {Untitled 7}
+add_wave {{/tb_acc_1/uut/ram_previous/dout_b}} 
+relaunch_sim
+run 50000 us
+current_wave_config {Untitled 7}
+add_wave {{/tb_acc_1/uut/buffer_addr}} 
+relaunch_sim
+run 50000 us
+current_wave_config {Untitled 7}
+add_wave {{/tb_acc_1/uut/previous_din_a_internal}} 
+current_wave_config {Untitled 7}
+add_wave {{/tb_acc_1/uut/current_din_a_internal}} 
+current_wave_config {Untitled 7}
+add_wave {{/tb_acc_1/uut/next_din_a_internal}} 
+current_wave_config {Untitled 7}
+add_wave {{/tb_acc_1/uut/previous_padding_new}} {{/tb_acc_1/uut/previous_padding_old}} 
+current_wave_config {Untitled 7}
+add_wave {{/tb_acc_1/uut/current_padding_new}} {{/tb_acc_1/uut/current_padding_old}} 
+current_wave_config {Untitled 7}
+add_wave {{/tb_acc_1/uut/next_padding_new}} {{/tb_acc_1/uut/next_padding_old}} 
+relaunch_sim
+run 50000 us
+current_wave_config {Untitled 7}
+add_wave {{/tb_acc_1/uut/ram_previous/dout_b}} 
+relaunch_sim
+run 50000 us
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+relaunch_sim
+run 50000 us
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+relaunch_sim
+run 50000 us
+restart
+relaunch_sim
+restart
+run 50000 us
+restart
+close_sim
+launch_simulation
+source tb_acc_1.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+close_sim
+launch_simulation
+source tb_acc_1.tcl
+current_wave_config {Untitled 9}
+add_wave {{/tb_acc_1/uut/sobel_out}} 
+current_wave_config {Untitled 9}
+add_wave {{/tb_acc_1/uut/state}} 
+current_wave_config {Untitled 9}
+add_wave {{/tb_acc_1/uut/line_index}} 
+current_wave_config {Untitled 9}
+add_wave {{/tb_acc_1/uut/pixel_index}} 
+current_wave_config {Untitled 9}
+add_wave {{/tb_acc_1/uut/previous_addr_a_internal}} 
+current_wave_config {Untitled 9}
+add_wave {{/tb_acc_1/uut/current_addr_a_internal}} 
+current_wave_config {Untitled 9}
+add_wave {{/tb_acc_1/uut/next_addr_b_internal}} 
+current_wave_config {Untitled 9}
+add_wave {{/tb_acc_1/uut/previous_din_a_internal}} 
+current_wave_config {Untitled 9}
+add_wave {{/tb_acc_1/uut/current_din_a_internal}} 
+current_wave_config {Untitled 9}
+add_wave {{/tb_acc_1/uut/next_din_a_internal}} 
+relaunch_sim
+run 50000 us
+restart
+run 50000 us
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+relaunch_sim
+run 50000 us
+current_wave_config {Untitled 9}
+add_wave {{/tb_acc_1/uut/ram_previous/din_a}} 
+current_wave_config {Untitled 9}
+add_wave {{/tb_acc_1/uut/ram_current/din_a}} 
+current_wave_config {Untitled 9}
+add_wave {{/tb_acc_1/uut/ram_next/din_a}} 
+relaunch_sim
+restart
+run 50000 us
+restart
+relaunch_sim
+close_sim
+launch_simulation
+source tb_acc_1.tcl
+current_wave_config {Untitled 10}
+add_wave {{/tb_acc_1/uut/ram_previous/din_a}} 
+current_wave_config {Untitled 10}
+add_wave {{/tb_acc_1/uut/ram_current/din_a}} 
+current_wave_config {Untitled 10}
+add_wave {{/tb_acc_1/uut/ram_next/din_a}} 
+relaunch_sim
+run 50000 us
+current_wave_config {Untitled 10}
+add_wave {{/tb_acc_1/uut/ram_previous/we_a}} 
+current_wave_config {Untitled 10}
+add_wave {{/tb_acc_1/uut/ram_current/we_a}} 
+current_wave_config {Untitled 10}
+add_wave {{/tb_acc_1/uut/ram_next/we_a}} 
+relaunch_sim
+run 50000 us
+restart
+run 50000 us
+close_sim
+add_files -norecurse /home/madsr2d2/DTU/dds/as2/as2_task1/as2_task1.srcs/sources_1/new/sobel_filter_1.vhd
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top sobel_filter_1 [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+add_files -norecurse /home/madsr2d2/DTU/dds/as2/as2_task1/as2_task1.srcs/sources_1/new/types_pkg.vhd
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+set_property file_type {VHDL 2008} [get_files  /home/madsr2d2/DTU/dds/as2/as2_task1/as2_task1.srcs/sources_1/new/sobel_filter_1.vhd]
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files /home/madsr2d2/DTU/dds/as2/as2_task1/as2_task1.srcs/sources_1/new/sobel_filter_1.vhd] -no_script -reset -force -quiet
+remove_files  /home/madsr2d2/DTU/dds/as2/as2_task1/as2_task1.srcs/sources_1/new/sobel_filter_1.vhd
+add_files -norecurse /home/madsr2d2/DTU/dds/as2/as2_task1/as2_task1.srcs/sources_1/new/sobel_filter_8bit.vhd
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top sobel_filter_8bit [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+set_property file_type {VHDL 2008} [get_files  /home/madsr2d2/DTU/dds/as2/as2_task1/as2_task1.srcs/sources_1/new/sobel_filter_8bit.vhd]
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse /home/madsr2d2/DTU/dds/as2/as2_task1/as2_task1.srcs/sim_1/new/tb_sobel_filter_8bit.vhd
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top sobel_filter_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+source sobel_filter_tb.tcl
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+launch_simulation
+source sobel_filter_tb.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_acc_1 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+source tb_acc_1.tcl
+current_wave_config {Untitled 13}
+add_wave {{/tb_acc_1/uut/buffer_we_a}} 
+current_wave_config {Untitled 13}
+add_wave {{/tb_acc_1/uut/buffer_dout_b_internal}} 
+current_wave_config {Untitled 13}
+add_wave {{/tb_acc_1/uut/state}} 
+current_wave_config {Untitled 13}
+add_wave {{/tb_acc_1/uut/line_index}} 
+relaunch_sim
+run 50000 us
+current_wave_config {Untitled 13}
+add_wave {{/tb_acc_1/uut/\line_buffer_gen(0)\/line_buffer_inst/din_a}} 
+current_wave_config {Untitled 13}
+add_wave {{/tb_acc_1/uut/\line_buffer_gen(1)\/line_buffer_inst/din_a}} 
+current_wave_config {Untitled 13}
+add_wave {{/tb_acc_1/uut/\line_buffer_gen(2)\/line_buffer_inst/din_a}} 
+relaunch_sim
+restart
+run 50000 us
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ram_buffer_1 [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+refresh_design
+refresh_design
+close_design
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+refresh_design
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+close_sim
+launch_simulation
+source tb_acc_1.tcl
+current_wave_config {Untitled 14}
+add_wave {{/tb_acc_1/uut/buffer_we_internala}} 
+current_wave_config {Untitled 14}
+add_wave {{/tb_acc_1/uut/buffer_dout_b_internal}} 
+current_wave_config {Untitled 14}
+add_wave {{/tb_acc_1/uut/buffer_addr}} 
+current_wave_config {Untitled 14}
+add_wave {{/tb_acc_1/uut/state}} 
+current_wave_config {Untitled 14}
+add_wave {{/tb_acc_1/uut/line_index}} 
+current_wave_config {Untitled 14}
+add_wave {{/tb_acc_1/uut/sobel_out}} 
+current_wave_config {Untitled 14}
+add_wave {{/tb_acc_1/uut/padding_old}} 
+current_wave_config {Untitled 14}
+add_wave {{/tb_acc_1/uut/padding_new}} 
+current_wave_config {Untitled 14}
+add_wave {{/tb_acc_1/uut/internal_addr}} 
+relaunch_sim
+run 50000 us
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+close_sim
+launch_simulation
+source tb_acc_1.tcl
+current_wave_config {Untitled 15}
+add_wave {{/tb_acc_1/uut/buffer_we_internala}} 
+current_wave_config {Untitled 15}
+add_wave {{/tb_acc_1/uut/buffer_index}} 
+current_wave_config {Untitled 15}
+add_wave {{/tb_acc_1/uut/state}} 
+current_wave_config {Untitled 15}
+add_wave {{/tb_acc_1/uut/line_index}} 
+current_wave_config {Untitled 15}
+add_wave {{/tb_acc_1/uut/buffer_dout_b_internal}} 
+current_wave_config {Untitled 15}
+add_wave {{/tb_acc_1/uut/buffer_addr}} 
+current_wave_config {Untitled 15}
+add_wave {{/tb_acc_1/uut/addr}} 
+relaunch_sim
+run 50000 us
+current_wave_config {Untitled 15}
+add_wave {{/tb_acc_1/uut/line_index}} 
+relaunch_sim
+run 50000 us
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+close_sim
+launch_simulation
+source tb_acc_1.tcl
+current_wave_config {Untitled 16}
+add_wave {{/tb_acc_1/uut/buffer_index}} 
+current_wave_config {Untitled 16}
+add_wave {{/tb_acc_1/uut/line_index}} 
+current_wave_config {Untitled 16}
+add_wave {{/tb_acc_1/uut/buffer_we_internala}} 
+current_wave_config {Untitled 16}
+add_wave {{/tb_acc_1/uut/buffer_dout_b_internal}} 
+current_wave_config {Untitled 16}
+add_wave {{/tb_acc_1/uut/buffer_addr}} 
+relaunch_sim
+run 50000 us
+current_wave_config {Untitled 16}
+add_wave {{/tb_acc_1/uut/padding_old}} {{/tb_acc_1/uut/padding_new}} 
+relaunch_sim
+run 50000 us
+refresh_design
+refresh_design
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+refresh_design
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+refresh_design
+close_design
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+close_sim
+launch_simulation
+source tb_acc_1.tcl
+close_sim
+launch_simulation
+source tb_acc_1.tcl
+close_sim
+launch_simulation
+source tb_acc_1.tcl
+close_sim
+launch_simulation
+source tb_acc_1.tcl
+close_sim
+launch_simulation
+launch_simulation
+source tb_acc_1.tcl
+current_wave_config {Untitled 21}
+add_wave {{/tb_acc_1/uut/buffer_we_a}} 
+current_wave_config {Untitled 21}
+add_wave {{/tb_acc_1/uut/line_index}} 
+current_wave_config {Untitled 21}
+add_wave {{/tb_acc_1/uut/buffer_addr}} 
+current_wave_config {Untitled 21}
+add_wave {{/tb_acc_1/uut/padding}} 
+current_wave_config {Untitled 21}
+add_wave {{/tb_acc_1/uut/buffer_we_internala}} 
+current_wave_config {Untitled 21}
+add_wave {{/tb_acc_1/uut/internal_addr}} 
+current_wave_config {Untitled 21}
+add_wave {{/tb_acc_1/uut/buffer_dout_b_internal}} 
+relaunch_sim
+run 50000 us
+current_wave_config {Untitled 21}
+add_wave {{/tb_acc_1/uut/\line_buffer_gen(0)\/line_buffer_inst/din_a}} 
+relaunch_sim
+run 50000 us
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+close_sim
+launch_simulation
+source tb_acc_1.tcl
+current_wave_config {Untitled 22}
+add_wave {{/tb_acc_1/uut/line_index}} 
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+close_sim
+launch_simulation
+source tb_acc_1.tcl
+current_wave_config {Untitled 23}
+add_wave {{/tb_acc_1/uut/buffer_dout_b_internal}} 
+current_wave_config {Untitled 23}
+add_wave {{/tb_acc_1/uut/internal_addr}} 
+current_wave_config {Untitled 23}
+add_wave {{/tb_acc_1/uut/line_index}} 
+current_wave_config {Untitled 23}
+add_wave {{/tb_acc_1/uut/buffer_index}} 
+current_wave_config {Untitled 23}
+add_wave {{/tb_acc_1/uut/buffer_addr}} 
+current_wave_config {Untitled 23}
+add_wave {{/tb_acc_1/uut/buffer_we_internala}} 
+current_wave_config {Untitled 23}
+add_wave {{/tb_acc_1/uut/padding}} 
+relaunch_sim
+run 50000 us
+current_wave_config {Untitled 23}
+add_wave {{/tb_acc_1/uut/sobel_out}} 
+relaunch_sim
+run 50000 us
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+close_sim
+launch_simulation
+launch_simulation
+source tb_acc_1.tcl
+run 50000 us
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+close_sim
+launch_simulation
+source tb_acc_1.tcl
+current_wave_config {Untitled 25}
+add_wave {{/tb_acc_1/uut/internal_addr}} 
+relaunch_sim
+run 50000 us
+current_wave_config {Untitled 25}
+add_wave {{/tb_acc_1/uut/buffer_addr}} 
+relaunch_sim
+run 50000 us
+current_wave_config {Untitled 25}
+add_wave {{/tb_acc_1/uut/state}} 
+relaunch_sim
+relaunch_sim
+run 50000 us
+current_wave_config {Untitled 25}
+add_wave {{/tb_acc_1/uut/\line_buffer_gen(2)\/line_buffer_inst}} 
+remove_forces { {/tb_acc_1/uut/\line_buffer_gen(2)\/line_buffer_inst/clk} {/tb_acc_1/uut/\line_buffer_gen(2)\/line_buffer_inst/we_a} {/tb_acc_1/uut/\line_buffer_gen(2)\/line_buffer_inst/addr_a} {/tb_acc_1/uut/\line_buffer_gen(2)\/line_buffer_inst/din_a} {/tb_acc_1/uut/\line_buffer_gen(2)\/line_buffer_inst/dout_a} {/tb_acc_1/uut/\line_buffer_gen(2)\/line_buffer_inst/we_b} {/tb_acc_1/uut/\line_buffer_gen(2)\/line_buffer_inst/addr_b} {/tb_acc_1/uut/\line_buffer_gen(2)\/line_buffer_inst/din_b} {/tb_acc_1/uut/\line_buffer_gen(2)\/line_buffer_inst/dout_b} }
+close_sim
+launch_simulation
+source tb_acc_1.tcl
+run 50000 us
+close_sim
+close_sim

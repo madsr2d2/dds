@@ -47,12 +47,16 @@ package types is
     constant image_width    : natural := 352;
     constant image_height : natural := 288; 
     constant C1 : natural := image_width/4;  
-    constant C2 : natural := (image_height - 2) * image_width;
      
     -- line array
-    type line_array_t is array (0 to 351) of byte_t;
-    type array_6 is array (0 to 6) of byte_t; 
 
+    type row_4 is array (0 to 3) of byte_t;
+    type row_3 is array (0 to 2) of byte_t;
+    type row_2 is array (0 to 1) of byte_t;
+    type matrix_33 is array (0 to 2) of row_3;
+    type matrix_32 is array (0 to 2) of row_2;
+
+ 
     constant halfword_zero : halfword_t := byte_zero & byte_zero;
     constant halfword_one  : halfword_t := byte_one & byte_one;
     constant halfword_x    : halfword_t := byte_x & byte_x;

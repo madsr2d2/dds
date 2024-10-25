@@ -1,8 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../../02203_A2_code/task2/types.vhd" \
-"../../../../../02203_A2_code/task2/line_buffer.vhd" \
-"../../../../as2_task_0.srcs/sim_1/new/line_buffer_tb.vhd" \
-
-# Do not sort compile order
-nosort

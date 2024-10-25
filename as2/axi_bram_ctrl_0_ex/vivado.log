@@ -1,0 +1,816 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Tue Oct 22 23:28:44 2024
+# Process ID: 1364297
+# Current directory: /home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex
+# Command line: vivado -notrace -source /home/madsr2d2/DTU/dds/as2/as2_task1/.Xil/axi_bram_ctrl_0/axi_bram_ctrl_0_ex.tcl
+# Log file: /home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/vivado.log
+# Journal file: /home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/vivado.jou
+# Running On        :madsr2d2
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 22.04.5 LTS
+# Processor Detail  :13th Gen Intel(R) Core(TM) i7-1360P
+# CPU Frequency     :4499.819 MHz
+# CPU Physical cores:12
+# CPU Logical cores :16
+# Host memory       :33245 MB
+# Swap memory       :2147 MB
+# Total Virtual     :35393 MB
+# Available Virtual :28515 MB
+#-----------------------------------------------------------
+start_gui
+source /home/madsr2d2/DTU/dds/as2/as2_task1/.Xil/axi_bram_ctrl_0/axi_bram_ctrl_0_ex.tcl -notrace
+INFO: [open_example_project] Creating new example project...
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2024.1/data/ip'.
+create_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:07 . Memory (MB): peak = 8029.602 ; gain = 475.836 ; free physical = 18602 ; free virtual = 26052
+INFO: [open_example_project] Importing original IP ...
+INFO: [open_example_project] Generating the example project IP ...
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'axi_bram_ctrl_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'axi_bram_ctrl_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'axi_bram_ctrl_0'...
+INFO: [open_example_project] Adding example synthesis HDL files ...
+INFO: [open_example_project] Adding example synthesis miscellaneous files ...
+INFO: [open_example_project] Adding example XDC files ...
+INFO: [open_example_project] Adding simulation HDL files ...
+INFO: [open_example_project] Sourcing example extension scripts ...
+INFO: [open_example_project] Sourcing extension script: axi_bram_ctrl_0/example_design/top_set.tcl
+INFO: [open_example_project] Rebuilding top IP...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'axi_bram_ctrl_0'...
+INFO: [exportsim-Tcl-40] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-72] Using boost library from '/tools/Xilinx/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "XSIM" (AMD Vivado Simulator)...
+INFO: [exportsim-Tcl-29] Pre-compiled simulation library path: '/tools/Xilinx/Vivado/2024.1/data/xsim'
+INFO: [exportsim-Tcl-29] Script generated: '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.ip_user_files/sim_scripts/axi_bram_ctrl_0/xsim/axi_bram_ctrl_0.sh'
+INFO: [SIM-utils-43] Exported '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.ip_user_files/sim_scripts/axi_bram_ctrl_0/xsim/axi_bram_ram_fmodel.cxx'
+INFO: [SIM-utils-43] Exported '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.ip_user_files/sim_scripts/axi_bram_ctrl_0/xsim/axi_bram_fmodel_shared_memory.cxx'
+INFO: [SIM-utils-43] Exported '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.ip_user_files/sim_scripts/axi_bram_ctrl_0/xsim/axi_bram_fmodel_base.cxx'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "MODELSIM" (Siemens ModelSim Simulator)...
+INFO: [exportsim-Tcl-29] Pre-compiled simulation library path: '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.cache/compile_simlib/modelsim'
+INFO: [exportsim-Tcl-29] Script generated: '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.ip_user_files/sim_scripts/axi_bram_ctrl_0/modelsim/axi_bram_ctrl_0.sh'
+INFO: [SIM-utils-43] Exported '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.ip_user_files/sim_scripts/axi_bram_ctrl_0/modelsim/axi_bram_ram_fmodel.cxx'
+INFO: [SIM-utils-43] Exported '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.ip_user_files/sim_scripts/axi_bram_ctrl_0/modelsim/axi_bram_fmodel_shared_memory.cxx'
+INFO: [SIM-utils-43] Exported '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.ip_user_files/sim_scripts/axi_bram_ctrl_0/modelsim/axi_bram_fmodel_base.cxx'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "QUESTA" (Siemens Questa Advanced Simulator)...
+INFO: [exportsim-Tcl-29] Pre-compiled simulation library path: '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.cache/compile_simlib/questa'
+INFO: [exportsim-Tcl-29] Script generated: '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.ip_user_files/sim_scripts/axi_bram_ctrl_0/questa/axi_bram_ctrl_0.sh'
+INFO: [SIM-utils-43] Exported '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.ip_user_files/sim_scripts/axi_bram_ctrl_0/questa/axi_bram_ram_fmodel.cxx'
+INFO: [SIM-utils-43] Exported '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.ip_user_files/sim_scripts/axi_bram_ctrl_0/questa/axi_bram_fmodel_shared_memory.cxx'
+INFO: [SIM-utils-43] Exported '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.ip_user_files/sim_scripts/axi_bram_ctrl_0/questa/axi_bram_fmodel_base.cxx'
+INFO: [exportsim-Tcl-5] Generating 3-step script for 'xcelium'. To create a single-step script, use the -single_step switch.
+INFO: [exportsim-Tcl-35] Exporting simulation files for "XCELIUM" (Cadence Xcelium Parallel Simulator)...
+INFO: [exportsim-Tcl-29] Pre-compiled simulation library path: '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.cache/compile_simlib/xcelium'
+INFO: [exportsim-Tcl-29] Script generated: '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.ip_user_files/sim_scripts/axi_bram_ctrl_0/xcelium/axi_bram_ctrl_0.sh'
+INFO: [SIM-utils-43] Exported '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.ip_user_files/sim_scripts/axi_bram_ctrl_0/xcelium/axi_bram_ram_fmodel.cxx'
+INFO: [SIM-utils-43] Exported '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.ip_user_files/sim_scripts/axi_bram_ctrl_0/xcelium/axi_bram_fmodel_shared_memory.cxx'
+INFO: [SIM-utils-43] Exported '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.ip_user_files/sim_scripts/axi_bram_ctrl_0/xcelium/axi_bram_fmodel_base.cxx'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "VCS" (Synopsys Verilog Compiler Simulator)...
+INFO: [exportsim-Tcl-29] Pre-compiled simulation library path: '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.cache/compile_simlib/vcs'
+INFO: [exportsim-Tcl-29] Script generated: '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.ip_user_files/sim_scripts/axi_bram_ctrl_0/vcs/axi_bram_ctrl_0.sh'
+INFO: [SIM-utils-43] Exported '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.ip_user_files/sim_scripts/axi_bram_ctrl_0/vcs/axi_bram_ram_fmodel.cxx'
+INFO: [SIM-utils-43] Exported '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.ip_user_files/sim_scripts/axi_bram_ctrl_0/vcs/axi_bram_fmodel_shared_memory.cxx'
+INFO: [SIM-utils-43] Exported '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.ip_user_files/sim_scripts/axi_bram_ctrl_0/vcs/axi_bram_fmodel_base.cxx'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "RIVIERA" (Aldec Riviera-PRO Simulator)...
+INFO: [exportsim-Tcl-29] Pre-compiled simulation library path: '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.cache/compile_simlib/riviera'
+INFO: [exportsim-Tcl-29] Script generated: '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.ip_user_files/sim_scripts/axi_bram_ctrl_0/riviera/axi_bram_ctrl_0.sh'
+INFO: [SIM-utils-43] Exported '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.ip_user_files/sim_scripts/axi_bram_ctrl_0/riviera/axi_bram_ram_fmodel.cxx'
+INFO: [SIM-utils-43] Exported '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.ip_user_files/sim_scripts/axi_bram_ctrl_0/riviera/axi_bram_fmodel_shared_memory.cxx'
+INFO: [SIM-utils-43] Exported '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.ip_user_files/sim_scripts/axi_bram_ctrl_0/riviera/axi_bram_fmodel_base.cxx'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "ACTIVEHDL" (Aldec Active-HDL Simulator)...
+INFO: [exportsim-Tcl-29] Pre-compiled simulation library path: '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.cache/compile_simlib/activehdl'
+INFO: [exportsim-Tcl-29] Script generated: '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.ip_user_files/sim_scripts/axi_bram_ctrl_0/activehdl/axi_bram_ctrl_0.sh'
+INFO: [SIM-utils-43] Exported '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.ip_user_files/sim_scripts/axi_bram_ctrl_0/activehdl/axi_bram_ram_fmodel.cxx'
+INFO: [SIM-utils-43] Exported '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.ip_user_files/sim_scripts/axi_bram_ctrl_0/activehdl/axi_bram_fmodel_shared_memory.cxx'
+INFO: [SIM-utils-43] Exported '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.ip_user_files/sim_scripts/axi_bram_ctrl_0/activehdl/axi_bram_fmodel_base.cxx'
+INFO: [open_example_project] Open Example Project completed
+update_compile_order -fileset sources_1
+create_ip_run [get_files -of_objects [get_fileset sources_1] /home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.srcs/sources_1/ip/axi_bram_ctrl_0/axi_bram_ctrl_0.xci]
+launch_runs axi_bram_ctrl_0_synth_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: axi_bram_ctrl_0
+[Tue Oct 22 23:31:51 2024] Launched axi_bram_ctrl_0_synth_1...
+Run output will be captured here: /home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.runs/axi_bram_ctrl_0_synth_1/runme.log
+wait_on_run axi_bram_ctrl_0_synth_1
+[Tue Oct 22 23:31:51 2024] Waiting for axi_bram_ctrl_0_synth_1 to finish...
+[Tue Oct 22 23:31:56 2024] Waiting for axi_bram_ctrl_0_synth_1 to finish...
+[Tue Oct 22 23:32:01 2024] Waiting for axi_bram_ctrl_0_synth_1 to finish...
+[Tue Oct 22 23:32:06 2024] Waiting for axi_bram_ctrl_0_synth_1 to finish...
+[Tue Oct 22 23:32:16 2024] Waiting for axi_bram_ctrl_0_synth_1 to finish...
+
+*** Running vivado
+    with args -log axi_bram_ctrl_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source axi_bram_ctrl_0.tcl
+
+
+****** Vivado v2024.1 (64-bit)
+  **** SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Tue Oct 22 23:31:53 2024
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source axi_bram_ctrl_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1473.645 ; gain = 76.836 ; free physical = 18025 ; free virtual = 25427
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: axi_bram_ctrl_0
+Command: synth_design -top axi_bram_ctrl_0 -part xc7a100tcsg324-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Device 21-9227] Part: xc7a100tcsg324-1 does not have CEAM library.
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 1367758
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2251.148 ; gain = 412.715 ; free physical = 16961 ; free virtual = 24363
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'axi_bram_ctrl_0' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ip/axi_bram_ctrl_0/synth/axi_bram_ctrl_0.vhd:111]
+	Parameter C_BRAM_INST_MODE bound to: EXTERNAL - type: string 
+	Parameter C_MEMORY_DEPTH bound to: 8192 - type: integer 
+	Parameter C_BRAM_ADDR_WIDTH bound to: 13 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 15 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_PROTOCOL bound to: AXI4 - type: string 
+	Parameter C_S_AXI_SUPPORTS_NARROW_BURST bound to: 1 - type: integer 
+	Parameter C_SINGLE_PORT_BRAM bound to: 0 - type: integer 
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_READ_LATENCY bound to: 1 - type: integer 
+	Parameter C_RD_CMD_OPTIMIZATION bound to: 0 - type: integer 
+	Parameter C_S_AXI_CTRL_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_CTRL_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_ECC bound to: 0 - type: integer 
+	Parameter C_ECC_TYPE bound to: 0 - type: integer 
+	Parameter C_FAULT_INJECT bound to: 0 - type: integer 
+	Parameter C_ECC_ONOFF_RESET_VALUE bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'axi_bram_ctrl' declared at '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:31263' bound to instance 'U0' of component 'axi_bram_ctrl' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ip/axi_bram_ctrl_0/synth/axi_bram_ctrl_0.vhd:270]
+INFO: [Synth 8-638] synthesizing module 'axi_bram_ctrl' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:31434]
+INFO: [Synth 8-638] synthesizing module 'axi_bram_ctrl_top' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:30438]
+INFO: [Synth 8-638] synthesizing module 'full_axi' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:29196]
+WARNING: [Synth 8-6774] Null subtype or type declaration found [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:29266]
+INFO: [Synth 8-3919] null assignment ignored [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:29266]
+INFO: [Synth 8-3919] null assignment ignored [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:29472]
+INFO: [Synth 8-638] synthesizing module 'wr_chnl' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:24080]
+INFO: [Synth 8-506] null port 'FaultInjectECC' ignored [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:24047]
+INFO: [Synth 8-638] synthesizing module 'wrap_brst' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:12386]
+INFO: [Synth 8-256] done synthesizing module 'wrap_brst' (0#1) [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:12386]
+INFO: [Synth 8-226] default block is never used [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:25423]
+INFO: [Synth 8-638] synthesizing module 'ua_narrow' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:11925]
+INFO: [Synth 8-226] default block is never used [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:12104]
+INFO: [Synth 8-226] default block is never used [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:12143]
+INFO: [Synth 8-256] done synthesizing module 'ua_narrow' (0#1) [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:11925]
+INFO: [Synth 8-226] default block is never used [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:25753]
+INFO: [Synth 8-638] synthesizing module 'SRL_FIFO' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:91]
+INFO: [Synth 8-3491] module 'FDR' declared at '/tools/Xilinx/Vivado/2024.1/scripts/rt/data/unisim_comp.v:41001' bound to instance 'Data_Exists_DFF' of component 'FDR' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:188]
+INFO: [Synth 8-6157] synthesizing module 'FDR' [/tools/Xilinx/Vivado/2024.1/scripts/rt/data/unisim_comp.v:41001]
+INFO: [Synth 8-6155] done synthesizing module 'FDR' (0#1) [/tools/Xilinx/Vivado/2024.1/scripts/rt/data/unisim_comp.v:41001]
+INFO: [Synth 8-3491] module 'MUXCY_L' declared at '/tools/Xilinx/Vivado/2024.1/scripts/rt/data/unisim_comp.v:88551' bound to instance 'MUXCY_L_I' of component 'MUXCY_L' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:205]
+INFO: [Synth 8-6157] synthesizing module 'MUXCY_L' [/tools/Xilinx/Vivado/2024.1/scripts/rt/data/unisim_comp.v:88551]
+INFO: [Synth 8-6155] done synthesizing module 'MUXCY_L' (0#1) [/tools/Xilinx/Vivado/2024.1/scripts/rt/data/unisim_comp.v:88551]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/tools/Xilinx/Vivado/2024.1/scripts/rt/data/unisim_comp.v:143217' bound to instance 'XORCY_I' of component 'XORCY' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:212]
+INFO: [Synth 8-6157] synthesizing module 'XORCY' [/tools/Xilinx/Vivado/2024.1/scripts/rt/data/unisim_comp.v:143217]
+INFO: [Synth 8-6155] done synthesizing module 'XORCY' (0#1) [/tools/Xilinx/Vivado/2024.1/scripts/rt/data/unisim_comp.v:143217]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/tools/Xilinx/Vivado/2024.1/scripts/rt/data/unisim_comp.v:41014' bound to instance 'FDRE_I' of component 'FDRE' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:218]
+INFO: [Synth 8-6157] synthesizing module 'FDRE' [/tools/Xilinx/Vivado/2024.1/scripts/rt/data/unisim_comp.v:41014]
+INFO: [Synth 8-6155] done synthesizing module 'FDRE' (0#1) [/tools/Xilinx/Vivado/2024.1/scripts/rt/data/unisim_comp.v:41014]
+INFO: [Synth 8-3491] module 'MUXCY_L' declared at '/tools/Xilinx/Vivado/2024.1/scripts/rt/data/unisim_comp.v:88551' bound to instance 'MUXCY_L_I' of component 'MUXCY_L' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:205]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/tools/Xilinx/Vivado/2024.1/scripts/rt/data/unisim_comp.v:143217' bound to instance 'XORCY_I' of component 'XORCY' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:212]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/tools/Xilinx/Vivado/2024.1/scripts/rt/data/unisim_comp.v:41014' bound to instance 'FDRE_I' of component 'FDRE' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:218]
+INFO: [Synth 8-3491] module 'MUXCY_L' declared at '/tools/Xilinx/Vivado/2024.1/scripts/rt/data/unisim_comp.v:88551' bound to instance 'MUXCY_L_I' of component 'MUXCY_L' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:205]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/tools/Xilinx/Vivado/2024.1/scripts/rt/data/unisim_comp.v:143217' bound to instance 'XORCY_I' of component 'XORCY' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:212]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/tools/Xilinx/Vivado/2024.1/scripts/rt/data/unisim_comp.v:41014' bound to instance 'FDRE_I' of component 'FDRE' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:218]
+INFO: [Synth 8-3491] module 'MUXCY_L' declared at '/tools/Xilinx/Vivado/2024.1/scripts/rt/data/unisim_comp.v:88551' bound to instance 'MUXCY_L_I' of component 'MUXCY_L' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:205]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/tools/Xilinx/Vivado/2024.1/scripts/rt/data/unisim_comp.v:143217' bound to instance 'XORCY_I' of component 'XORCY' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:212]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/tools/Xilinx/Vivado/2024.1/scripts/rt/data/unisim_comp.v:41014' bound to instance 'FDRE_I' of component 'FDRE' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:218]
+INFO: [Synth 8-3491] module 'SRL16E' declared at '/tools/Xilinx/Vivado/2024.1/scripts/rt/data/unisim_comp.v:137262' bound to instance 'SRL16E_I' of component 'SRL16E' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:229]
+INFO: [Synth 8-6157] synthesizing module 'SRL16E' [/tools/Xilinx/Vivado/2024.1/scripts/rt/data/unisim_comp.v:137262]
+INFO: [Synth 8-6155] done synthesizing module 'SRL16E' (0#1) [/tools/Xilinx/Vivado/2024.1/scripts/rt/data/unisim_comp.v:137262]
+INFO: [Synth 8-256] done synthesizing module 'SRL_FIFO' (0#1) [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:91]
+INFO: [Synth 8-256] done synthesizing module 'wr_chnl' (0#1) [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:24080]
+WARNING: [Synth 8-6778] Component port with null array found, Will be ignored [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:29936]
+INFO: [Synth 8-638] synthesizing module 'rd_chnl' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:14672]
+INFO: [Synth 8-226] default block is never used [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:16057]
+INFO: [Synth 8-256] done synthesizing module 'rd_chnl' (0#1) [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:14672]
+INFO: [Synth 8-256] done synthesizing module 'full_axi' (0#1) [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:29196]
+INFO: [Synth 8-256] done synthesizing module 'axi_bram_ctrl_top' (0#1) [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:30438]
+INFO: [Synth 8-256] done synthesizing module 'axi_bram_ctrl' (0#1) [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:31434]
+INFO: [Synth 8-256] done synthesizing module 'axi_bram_ctrl_0' (0#1) [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ip/axi_bram_ctrl_0/synth/axi_bram_ctrl_0.vhd:111]
+WARNING: [Synth 8-6014] Unused sequential element curr_awsize_reg_reg was removed.  [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:25239]
+WARNING: [Synth 8-6014] Unused sequential element aw_active_d1_reg was removed.  [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:25664]
+WARNING: [Synth 8-6014] Unused sequential element GEN_NO_RD_CMD_OPT.curr_arsize_reg_reg was removed.  [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:15924]
+WARNING: [Synth 8-6014] Unused sequential element GEN_NO_RD_CMD_OPT.do_cmplt_burst_reg was removed.  [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ipshared/14fa/hdl/axi_bram_ctrl_v4_1_rfs.vhd:21170]
+WARNING: [Synth 8-7129] Port curr_axlen[7] in module wrap_brst is either unconnected or has no load
+WARNING: [Synth 8-7129] Port curr_axlen[6] in module wrap_brst is either unconnected or has no load
+WARNING: [Synth 8-7129] Port curr_axlen[5] in module wrap_brst is either unconnected or has no load
+WARNING: [Synth 8-7129] Port curr_axlen[4] in module wrap_brst is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_addr_ld[2] in module wrap_brst is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_addr_int[14] in module wrap_brst is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_addr_int[13] in module wrap_brst is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_addr_int[12] in module wrap_brst is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_addr_int[11] in module wrap_brst is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_addr_int[10] in module wrap_brst is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_addr_int[9] in module wrap_brst is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_addr_int[8] in module wrap_brst is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_addr_int[7] in module wrap_brst is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_addr_int[6] in module wrap_brst is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_ARLOCK in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_ARCACHE[3] in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_ARCACHE[2] in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_ARCACHE[1] in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_ARCACHE[0] in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_ARPROT[2] in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_ARPROT[1] in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_ARPROT[0] in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Enable_ECC in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Arb2AR_Active in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Sng_BRAM_Addr[14] in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Sng_BRAM_Addr[13] in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Sng_BRAM_Addr[12] in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Sng_BRAM_Addr[11] in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Sng_BRAM_Addr[10] in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Sng_BRAM_Addr[9] in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Sng_BRAM_Addr[8] in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Sng_BRAM_Addr[7] in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Sng_BRAM_Addr[6] in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Sng_BRAM_Addr[5] in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Sng_BRAM_Addr[4] in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Sng_BRAM_Addr[3] in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Sng_BRAM_Addr[2] in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Sng_arb_Arready in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_AWLOCK in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_AWCACHE[3] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_AWCACHE[2] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_AWCACHE[1] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_AWCACHE[0] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_AWPROT[2] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_AWPROT[1] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_AWPROT[0] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Enable_ECC in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[31] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[30] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[29] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[28] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[27] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[26] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[25] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[24] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[23] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[22] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[21] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[20] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[19] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[18] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[17] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[16] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[15] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[14] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[13] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[12] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[11] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[10] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[9] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[8] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[7] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[6] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[5] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[4] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[3] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[2] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[1] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[0] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Arb2AW_Active in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Sng_BRAM_Addr[14] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Sng_BRAM_Addr[13] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Sng_BRAM_Addr[12] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Sng_BRAM_Addr[11] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Sng_BRAM_Addr[10] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Sng_BRAM_Addr[9] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Sng_BRAM_Addr[8] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Sng_BRAM_Addr[7] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Sng_BRAM_Addr[6] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Sng_BRAM_Addr[5] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Sng_BRAM_Addr[4] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Sng_BRAM_Addr[3] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Sng_BRAM_Addr[2] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_RdData[31] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_RdData[30] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_RdData[29] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_RdData[28] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_RdData[27] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_RdData[26] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BRAM_RdData[25] in module wr_chnl is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2359.117 ; gain = 520.684 ; free physical = 16842 ; free virtual = 24246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2376.930 ; gain = 538.496 ; free physical = 16842 ; free virtual = 24246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2376.930 ; gain = 538.496 ; free physical = 16842 ; free virtual = 24246
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2382.867 ; gain = 0.000 ; free physical = 16842 ; free virtual = 24246
+INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ip/axi_bram_ctrl_0/axi_bram_ctrl_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ip/axi_bram_ctrl_0/axi_bram_ctrl_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.runs/axi_bram_ctrl_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.runs/axi_bram_ctrl_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2518.711 ; gain = 0.000 ; free physical = 16826 ; free virtual = 24230
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 5 instances were transformed.
+  FDR => FDRE: 1 instance 
+  MUXCY_L => MUXCY: 4 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2518.711 ; gain = 0.000 ; free physical = 16826 ; free virtual = 24230
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2518.711 ; gain = 680.277 ; free physical = 16839 ; free virtual = 24243
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2526.715 ; gain = 688.281 ; free physical = 16839 ; free virtual = 24243
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  /home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.runs/axi_bram_ctrl_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2526.715 ; gain = 688.281 ; free physical = 16839 ; free virtual = 24243
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'GEN_WDATA_SM_NO_ECC_DUAL_REG_WREADY.wr_data_sm_cs_reg' in module 'wr_chnl'
+INFO: [Synth 8-802] inferred FSM for state register 'GEN_NO_RD_CMD_OPT.GEN_AR_DUAL.rd_addr_sm_cs_reg' in module 'rd_chnl'
+INFO: [Synth 8-802] inferred FSM for state register 'GEN_NO_RD_CMD_OPT.rd_data_sm_cs_reg' in module 'rd_chnl'
+INFO: [Synth 8-802] inferred FSM for state register 'GEN_NO_RD_CMD_OPT.rlast_sm_cs_reg' in module 'rd_chnl'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                              000 |                              000
+               w8_awaddr |                              001 |                              001
+            brst_wr_data |                              010 |                              011
+          b2b_w8_wr_data |                              011 |                              100
+             sng_wr_data |                              100 |                              010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'GEN_WDATA_SM_NO_ECC_DUAL_REG_WREADY.wr_data_sm_cs_reg' using encoding 'sequential' in module 'wr_chnl'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                                0 |                               00
+               ld_araddr |                                1 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'GEN_NO_RD_CMD_OPT.GEN_AR_DUAL.rd_addr_sm_cs_reg' using encoding 'sequential' in module 'rd_chnl'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                              000 |                              000
+          w8_throttle_b2 |                              001 |                              101
+             w8_throttle |                              010 |                              010
+        w8_2nd_last_data |                              011 |                              011
+            w8_last_data |                              100 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'GEN_NO_RD_CMD_OPT.rlast_sm_cs_reg' using encoding 'sequential' in module 'rd_chnl'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                             0000 |                             0000
+                sng_addr |                             0001 |                             0011
+                sec_addr |                             0010 |                             0100
+               full_pipe |                             0011 |                             0101
+           full_throttle |                             0100 |                             0110
+               last_addr |                             0101 |                             0111
+           last_throttle |                             0110 |                             1000
+               last_data |                             0111 |                             1001
+       last_data_ar_pend |                             1000 |                             1010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'GEN_NO_RD_CMD_OPT.rd_data_sm_cs_reg' using encoding 'sequential' in module 'rd_chnl'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2526.715 ; gain = 688.281 ; free physical = 16844 ; free virtual = 24249
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   10 Bit       Adders := 2     
+	   2 Input    9 Bit       Adders := 2     
+	   2 Input    8 Bit       Adders := 1     
+	   2 Input    5 Bit       Adders := 8     
+	   2 Input    4 Bit       Adders := 12    
+	   2 Input    3 Bit       Adders := 2     
+	   3 Input    2 Bit       Adders := 2     
+	   2 Input    2 Bit       Adders := 4     
++---XORs : 
+	   2 Input      1 Bit         XORs := 4     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               13 Bit    Registers := 2     
+	               12 Bit    Registers := 2     
+	                8 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 5     
+	                2 Bit    Registers := 8     
+	                1 Bit    Registers := 164   
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 1     
+	   2 Input   13 Bit        Muxes := 8     
+	   2 Input   10 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 4     
+	   8 Input    4 Bit        Muxes := 4     
+	   9 Input    4 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 10    
+	   5 Input    3 Bit        Muxes := 2     
+	   2 Input    3 Bit        Muxes := 11    
+	   4 Input    2 Bit        Muxes := 2     
+	   3 Input    2 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 18    
+	   2 Input    1 Bit        Muxes := 93    
+	   5 Input    1 Bit        Muxes := 15    
+	   9 Input    1 Bit        Muxes := 24    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+INFO: [Synth 8-3332] Sequential element (gext_inst.abcv4_0_ext_inst/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/BID_FIFO/Data_Exists_DFF) is unused and will be removed from module axi_bram_ctrl.
+INFO: [Synth 8-3332] Sequential element (gext_inst.abcv4_0_ext_inst/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/BID_FIFO/Addr_Counters[0].FDRE_I) is unused and will be removed from module axi_bram_ctrl.
+INFO: [Synth 8-3332] Sequential element (gext_inst.abcv4_0_ext_inst/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/BID_FIFO/Addr_Counters[1].FDRE_I) is unused and will be removed from module axi_bram_ctrl.
+INFO: [Synth 8-3332] Sequential element (gext_inst.abcv4_0_ext_inst/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/BID_FIFO/Addr_Counters[2].FDRE_I) is unused and will be removed from module axi_bram_ctrl.
+INFO: [Synth 8-3332] Sequential element (gext_inst.abcv4_0_ext_inst/GEN_AXI4.I_FULL_AXI/I_WR_CHNL/BID_FIFO/Addr_Counters[3].FDRE_I) is unused and will be removed from module axi_bram_ctrl.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2526.715 ; gain = 688.281 ; free physical = 16823 ; free virtual = 24228
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2526.715 ; gain = 688.281 ; free physical = 16834 ; free virtual = 24247
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2526.715 ; gain = 688.281 ; free physical = 16836 ; free virtual = 24248
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2526.715 ; gain = 688.281 ; free physical = 16836 ; free virtual = 24248
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2526.715 ; gain = 688.281 ; free physical = 16842 ; free virtual = 24254
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2526.715 ; gain = 688.281 ; free physical = 16842 ; free virtual = 24254
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2526.715 ; gain = 688.281 ; free physical = 16842 ; free virtual = 24254
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2526.715 ; gain = 688.281 ; free physical = 16842 ; free virtual = 24254
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2526.715 ; gain = 688.281 ; free physical = 16842 ; free virtual = 24254
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2526.715 ; gain = 688.281 ; free physical = 16842 ; free virtual = 24254
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |     2|
+|2     |LUT1   |     5|
+|3     |LUT2   |    19|
+|4     |LUT3   |    76|
+|5     |LUT4   |    51|
+|6     |LUT5   |    83|
+|7     |LUT6   |   179|
+|8     |MUXF7  |     1|
+|9     |FDRE   |   298|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2526.715 ; gain = 688.281 ; free physical = 16842 ; free virtual = 24254
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 213 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2526.715 ; gain = 546.500 ; free physical = 16842 ; free virtual = 24254
+Synthesis Optimization Complete : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2526.723 ; gain = 688.281 ; free physical = 16842 ; free virtual = 24254
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2526.723 ; gain = 0.000 ; free physical = 17055 ; free virtual = 24466
+INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2582.742 ; gain = 0.000 ; free physical = 17112 ; free virtual = 24524
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 4d22a395
+INFO: [Common 17-83] Releasing license: Synthesis
+84 Infos, 107 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:19 . Memory (MB): peak = 2582.742 ; gain = 1094.254 ; free physical = 17112 ; free virtual = 24524
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1975.448; main = 1630.962; forked = 371.013
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3561.402; main = 2582.746; forked = 1034.684
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2606.754 ; gain = 0.000 ; free physical = 17112 ; free virtual = 24524
+INFO: [Common 17-1381] The checkpoint '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.runs/axi_bram_ctrl_0_synth_1/axi_bram_ctrl_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP axi_bram_ctrl_0, cache-ID = f6c6e652ea0f9a24
+INFO: [Coretcl 2-1174] Renamed 9 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2606.754 ; gain = 0.000 ; free physical = 17173 ; free virtual = 24586
+INFO: [Common 17-1381] The checkpoint '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.runs/axi_bram_ctrl_0_synth_1/axi_bram_ctrl_0.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file axi_bram_ctrl_0_utilization_synth.rpt -pb axi_bram_ctrl_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Oct 22 23:32:21 2024...
+[Tue Oct 22 23:32:24 2024] axi_bram_ctrl_0_synth_1 finished
+wait_on_runs: Time (s): cpu = 00:00:35 ; elapsed = 00:00:33 . Memory (MB): peak = 8228.562 ; gain = 20.996 ; free physical = 18611 ; free virtual = 26023
+synth_design -top axi_bram_ctrl_0_synth -part xc7a100tcsg324-1 -lint 
+Command: synth_design -top axi_bram_ctrl_0_synth -part xc7a100tcsg324-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 1368176
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 8604.477 ; gain = 375.914 ; free physical = 17885 ; free virtual = 25346
+---------------------------------------------------------------------------------
+Clean up Linter database...
+INFO: [Synth 8-638] synthesizing module 'axi_bram_ctrl_0_synth' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/axi_bram_ctrl_0_synth.vhd:93]
+INFO: [Synth 8-113] binding component instance 'bufg_A' to cell 'BUFG' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/axi_bram_ctrl_0_synth.vhd:259]
+INFO: [Synth 8-638] synthesizing module 'AXI_CHECKER' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/axi_checker.vhd:86]
+INFO: [Synth 8-638] synthesizing module 'DATA_GEN' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/data_gen.vhd:90]
+	Parameter DATA_GEN_WIDTH bound to: 32 - type: integer 
+	Parameter DOUT_WIDTH bound to: 32 - type: integer 
+	Parameter DATA_PART_CNT bound to: 1 - type: integer 
+	Parameter SEED bound to: 2 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'RANDOM' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/random.vhd:87]
+	Parameter WIDTH bound to: 8 - type: integer 
+	Parameter SEED bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'RANDOM' (1#1) [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/random.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'RANDOM__parameterized0' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/random.vhd:87]
+	Parameter WIDTH bound to: 8 - type: integer 
+	Parameter SEED bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'RANDOM__parameterized0' (1#1) [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/random.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'RANDOM__parameterized1' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/random.vhd:87]
+	Parameter WIDTH bound to: 8 - type: integer 
+	Parameter SEED bound to: 3 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'RANDOM__parameterized1' (1#1) [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/random.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'RANDOM__parameterized2' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/random.vhd:87]
+	Parameter WIDTH bound to: 8 - type: integer 
+	Parameter SEED bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'RANDOM__parameterized2' (1#1) [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/random.vhd:87]
+INFO: [Synth 8-256] done synthesizing module 'DATA_GEN' (2#1) [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/data_gen.vhd:90]
+INFO: [Synth 8-256] done synthesizing module 'AXI_CHECKER' (3#1) [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/axi_checker.vhd:86]
+INFO: [Synth 8-3491] module 'ABC_STIM_GEN' declared at '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/abc_stim_gen.vhd:75' bound to instance 'ABC_STIM_GEN_INST' of component 'ABC_STIM_GEN' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/axi_bram_ctrl_0_synth.vhd:307]
+INFO: [Synth 8-638] synthesizing module 'ABC_STIM_GEN' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/abc_stim_gen.vhd:111]
+INFO: [Synth 8-3491] module 'ABC_AXI_FULL_PROTOCOL_CHKR' declared at '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/abc_axi_protocol_chkr.vhd:78' bound to instance 'ABC_AXI_FULL_PROT_CHKER_INST' of component 'ABC_AXI_FULL_PROTOCOL_CHKR' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/abc_stim_gen.vhd:586]
+INFO: [Synth 8-638] synthesizing module 'ABC_AXI_FULL_PROTOCOL_CHKR' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/abc_axi_protocol_chkr.vhd:105]
+INFO: [Synth 8-256] done synthesizing module 'ABC_AXI_FULL_PROTOCOL_CHKR' (4#1) [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/abc_axi_protocol_chkr.vhd:105]
+INFO: [Synth 8-256] done synthesizing module 'ABC_STIM_GEN' (5#1) [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/abc_stim_gen.vhd:111]
+INFO: [Synth 8-3491] module 'axi_bram_ctrl_0_exdes' declared at '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/axi_bram_ctrl_0_exdes.vhd:82' bound to instance 'ABC_PORT' of component 'axi_bram_ctrl_0_exdes' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/axi_bram_ctrl_0_synth.vhd:367]
+INFO: [Synth 8-638] synthesizing module 'axi_bram_ctrl_0_exdes' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/axi_bram_ctrl_0_exdes.vhd:135]
+INFO: [Synth 8-3491] module 'axi_bram_ctrl_0' declared at '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/.Xil/Vivado-1364297-madsr2d2/realtime/axi_bram_ctrl_0_stub.vhdl:6' bound to instance 'ABC0' of component 'axi_bram_ctrl_0' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/axi_bram_ctrl_0_exdes.vhd:267]
+INFO: [Synth 8-638] synthesizing module 'axi_bram_ctrl_0' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/.Xil/Vivado-1364297-madsr2d2/realtime/axi_bram_ctrl_0_stub.vhdl:59]
+	Parameter MEMORY_SIZE bound to: 262144 - type: integer 
+	Parameter MEMORY_PRIMITIVE bound to: block - type: string 
+	Parameter CLOCKING_MODE bound to: common_clock - type: string 
+	Parameter ECC_MODE bound to: no_ecc - type: string 
+	Parameter MEMORY_INIT_FILE bound to: none - type: string 
+	Parameter MEMORY_INIT_PARAM bound to: (null) - type: string 
+	Parameter USE_MEM_INIT bound to: 1 - type: integer 
+	Parameter WAKEUP_TIME bound to: disable_sleep - type: string 
+	Parameter AUTO_SLEEP_TIME bound to: 0 - type: integer 
+	Parameter MESSAGE_CONTROL bound to: 0 - type: integer 
+	Parameter WRITE_DATA_WIDTH_A bound to: 32 - type: integer 
+	Parameter READ_DATA_WIDTH_A bound to: 32 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_A bound to: 8 - type: integer 
+	Parameter ADDR_WIDTH_A bound to: 13 - type: integer 
+	Parameter READ_RESET_VALUE_A bound to: 0 - type: string 
+	Parameter READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter WRITE_MODE_A bound to: write_first - type: string 
+	Parameter WRITE_DATA_WIDTH_B bound to: 32 - type: integer 
+	Parameter READ_DATA_WIDTH_B bound to: 32 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_B bound to: 8 - type: integer 
+	Parameter ADDR_WIDTH_B bound to: 13 - type: integer 
+	Parameter READ_RESET_VALUE_B bound to: 0 - type: string 
+	Parameter READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter WRITE_MODE_B bound to: write_first - type: string 
+INFO: [Synth 8-3491] module 'xpm_memory_tdpram' declared at '/tools/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:9050' bound to instance 'xpm_memory_tdpram_inst' of component 'xpm_memory_tdpram' [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/axi_bram_ctrl_0_exdes.vhd:337]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_tdpram' [/tools/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:9050]
+	Parameter MEMORY_SIZE bound to: 262144 - type: integer 
+	Parameter MEMORY_PRIMITIVE bound to: block - type: string 
+	Parameter CLOCKING_MODE bound to: common_clock - type: string 
+	Parameter ECC_MODE bound to: no_ecc - type: string 
+	Parameter MEMORY_INIT_FILE bound to: none - type: string 
+	Parameter MEMORY_INIT_PARAM bound to: (null) - type: string 
+	Parameter USE_MEM_INIT bound to: 1 - type: integer 
+	Parameter WAKEUP_TIME bound to: disable_sleep - type: string 
+	Parameter AUTO_SLEEP_TIME bound to: 0 - type: integer 
+	Parameter MESSAGE_CONTROL bound to: 0 - type: integer 
+	Parameter WRITE_DATA_WIDTH_A bound to: 32 - type: integer 
+	Parameter READ_DATA_WIDTH_A bound to: 32 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_A bound to: 8 - type: integer 
+	Parameter ADDR_WIDTH_A bound to: 13 - type: integer 
+	Parameter READ_RESET_VALUE_A bound to: 0 - type: string 
+	Parameter READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter WRITE_MODE_A bound to: write_first - type: string 
+	Parameter WRITE_DATA_WIDTH_B bound to: 32 - type: integer 
+	Parameter READ_DATA_WIDTH_B bound to: 32 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_B bound to: 8 - type: integer 
+	Parameter ADDR_WIDTH_B bound to: 13 - type: integer 
+	Parameter READ_RESET_VALUE_B bound to: 0 - type: string 
+	Parameter READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter WRITE_MODE_B bound to: write_first - type: string 
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base' [/tools/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:54]
+INFO: [Synth 8-6059] Synth Info: [XPM_MEMORY 20-2] MEMORY_INIT_FILE (none), MEMORY_INIT_PARAM together specify no memory initialization. Initial memory contents will be all 0's.   [/tools/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:516]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base' (6#1) [/tools/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:54]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_tdpram' (7#1) [/tools/Xilinx/Vivado/2024.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:9050]
+INFO: [Synth 8-256] done synthesizing module 'axi_bram_ctrl_0_exdes' (8#1) [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/axi_bram_ctrl_0_exdes.vhd:135]
+WARNING: [Synth 8-6014] Unused sequential element STIMULUS_FLOW_reg was removed.  [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/axi_bram_ctrl_0_synth.vhd:356]
+INFO: [Synth 8-256] done synthesizing module 'axi_bram_ctrl_0_synth' (9#1) [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/axi_bram_ctrl_0_synth.vhd:93]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 8722.219 ; gain = 493.656 ; free physical = 17827 ; free virtual = 25240
+---------------------------------------------------------------------------------
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (lin64) Build 5076996 Wed May 22 18:36:09 MDT 2024
+| Date         : Tue Oct 22 23:32:28 2024
+| Host         : madsr2d2 running 64-bit Ubuntu 22.04.5 LTS
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+RTL Linter Report
+
+Table of Contents
+-----------------
+1. Summary
+
+1. Summary
+----------
+
++-----------+----------+--------------+----------+
+| Rule ID   | Severity | # Violations | # Waived |
++-----------+----------+--------------+----------+
+| ASSIGN-5  | WARNING  | 1            | 0        |
+| ASSIGN-6  | WARNING  | 12           | 0        |
+| ASSIGN-10 | WARNING  | 13           | 0        |
++-----------+----------+--------------+----------+
+
+
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'arid_rd_ptr' was assigned but not read. 
+RTL Name 'arid_rd_ptr', Hierarchy 'ABC_AXI_FULL_PROTOCOL_CHKR', File '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/abc_axi_protocol_chkr.vhd', Line 122.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'arid_wr_ptr' was assigned but not read. 
+RTL Name 'arid_wr_ptr', Hierarchy 'ABC_AXI_FULL_PROTOCOL_CHKR', File '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/abc_axi_protocol_chkr.vhd', Line 121.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'awid_rd_ptr' was assigned but not read. 
+RTL Name 'awid_rd_ptr', Hierarchy 'ABC_AXI_FULL_PROTOCOL_CHKR', File '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/abc_axi_protocol_chkr.vhd', Line 119.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'awid_wr_ptr' was assigned but not read. 
+RTL Name 'awid_wr_ptr', Hierarchy 'ABC_AXI_FULL_PROTOCOL_CHKR', File '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/abc_axi_protocol_chkr.vhd', Line 118.
+WARNING: [Synth 37-125] [ASSIGN-10]Some bits in IO 'S_AXI_ARADDR' are not read. First unread bit index is 0. 
+RTL Name 'S_AXI_ARADDR', Hierarchy 'ABC_AXI_FULL_PROTOCOL_CHKR', File 'abc_axi_protocol_chkr.vhd', Line 94.
+WARNING: [Synth 37-125] [ASSIGN-10]Some bits in IO 'S_AXI_ARLEN' are not read. First unread bit index is 0. 
+RTL Name 'S_AXI_ARLEN', Hierarchy 'ABC_AXI_FULL_PROTOCOL_CHKR', File 'abc_axi_protocol_chkr.vhd', Line 85.
+WARNING: [Synth 37-125] [ASSIGN-10]Some bits in IO 'S_AXI_AWADDR' are not read. First unread bit index is 0. 
+RTL Name 'S_AXI_AWADDR', Hierarchy 'ABC_AXI_FULL_PROTOCOL_CHKR', File 'abc_axi_protocol_chkr.vhd', Line 82.
+WARNING: [Synth 37-125] [ASSIGN-10]Some bits in IO 'S_AXI_AWLEN' are not read. First unread bit index is 0. 
+RTL Name 'S_AXI_AWLEN', Hierarchy 'ABC_AXI_FULL_PROTOCOL_CHKR', File 'abc_axi_protocol_chkr.vhd', Line 83.
+WARNING: [Synth 37-125] [ASSIGN-10]Some bits in IO 'S_AXI_BREADY' are not read. First unread bit index is 0. 
+RTL Name 'S_AXI_BREADY', Hierarchy 'ABC_AXI_FULL_PROTOCOL_CHKR', File 'abc_axi_protocol_chkr.vhd', Line 93.
+WARNING: [Synth 37-125] [ASSIGN-10]Some bits in IO 'S_AXI_BRESP' are not read. First unread bit index is 0. 
+RTL Name 'S_AXI_BRESP', Hierarchy 'ABC_AXI_FULL_PROTOCOL_CHKR', File 'abc_axi_protocol_chkr.vhd', Line 91.
+WARNING: [Synth 37-125] [ASSIGN-10]Some bits in IO 'S_AXI_BVALID' are not read. First unread bit index is 0. 
+RTL Name 'S_AXI_BVALID', Hierarchy 'ABC_AXI_FULL_PROTOCOL_CHKR', File 'abc_axi_protocol_chkr.vhd', Line 92.
+WARNING: [Synth 37-125] [ASSIGN-10]Some bits in IO 'S_AXI_RLAST' are not read. First unread bit index is 0. 
+RTL Name 'S_AXI_RLAST', Hierarchy 'ABC_AXI_FULL_PROTOCOL_CHKR', File 'abc_axi_protocol_chkr.vhd', Line 86.
+WARNING: [Synth 37-125] [ASSIGN-10]Some bits in IO 'S_AXI_RREADY' are not read. First unread bit index is 0. 
+RTL Name 'S_AXI_RREADY', Hierarchy 'ABC_AXI_FULL_PROTOCOL_CHKR', File 'abc_axi_protocol_chkr.vhd', Line 99.
+WARNING: [Synth 37-125] [ASSIGN-10]Some bits in IO 'S_AXI_RRESP' are not read. First unread bit index is 0. 
+RTL Name 'S_AXI_RRESP', Hierarchy 'ABC_AXI_FULL_PROTOCOL_CHKR', File 'abc_axi_protocol_chkr.vhd', Line 97.
+WARNING: [Synth 37-125] [ASSIGN-10]Some bits in IO 'S_AXI_RVALID' are not read. First unread bit index is 0. 
+RTL Name 'S_AXI_RVALID', Hierarchy 'ABC_AXI_FULL_PROTOCOL_CHKR', File 'abc_axi_protocol_chkr.vhd', Line 98.
+WARNING: [Synth 37-125] [ASSIGN-10]Some bits in IO 'S_AXI_WLAST' are not read. First unread bit index is 0. 
+RTL Name 'S_AXI_WLAST', Hierarchy 'ABC_AXI_FULL_PROTOCOL_CHKR', File 'abc_axi_protocol_chkr.vhd', Line 84.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'LAST_WLAST' was assigned but not read. 
+RTL Name 'LAST_WLAST', Hierarchy 'ABC_STIM_GEN', File '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/abc_stim_gen.vhd', Line 166.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'S_AXI_BREADY_I' was assigned but not read. 
+RTL Name 'S_AXI_BREADY_I', Hierarchy 'ABC_STIM_GEN', File '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/abc_stim_gen.vhd', Line 169.
+WARNING: [Synth 37-125] [ASSIGN-10]Some bits in IO 'S_AXI_RDATA' are not read. First unread bit index is 0. 
+RTL Name 'S_AXI_RDATA', Hierarchy 'ABC_STIM_GEN', File 'abc_stim_gen.vhd', Line 99.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 's_axi_aclk_buf' declared and are not set.
+RTL Name 's_axi_aclk_buf', Hierarchy 'axi_bram_ctrl_0_exdes', File '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/axi_bram_ctrl_0_exdes.vhd', Line 253.
+WARNING: [Synth 37-123] [ASSIGN-6]Some bits in 'BRAM_Addr_A' are not read. First unread bit index is 0. 
+RTL Name 'BRAM_Addr_A', Hierarchy 'axi_bram_ctrl_0_exdes', File 'axi_bram_ctrl_0_exdes.vhd', Line 241.
+WARNING: [Synth 37-123] [ASSIGN-6]Some bits in 'BRAM_Addr_B' are not read. First unread bit index is 0. 
+RTL Name 'BRAM_Addr_B', Hierarchy 'axi_bram_ctrl_0_exdes', File 'axi_bram_ctrl_0_exdes.vhd', Line 249.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'BRAM_Rst_A' was assigned but not read. 
+RTL Name 'BRAM_Rst_A', Hierarchy 'axi_bram_ctrl_0_exdes', File '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/axi_bram_ctrl_0_exdes.vhd', Line 238.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'BRAM_Rst_B' was assigned but not read. 
+RTL Name 'BRAM_Rst_B', Hierarchy 'axi_bram_ctrl_0_exdes', File '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/axi_bram_ctrl_0_exdes.vhd', Line 246.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'CHECKER_EN_R' was assigned but not read. 
+RTL Name 'CHECKER_EN_R', Hierarchy 'axi_bram_ctrl_0_synth', File '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/axi_bram_ctrl_0_synth.vhd', Line 233.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'RSTB' was assigned but not read. 
+RTL Name 'RSTB', Hierarchy 'axi_bram_ctrl_0_synth', File '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/axi_bram_ctrl_0_synth.vhd', Line 246.
+INFO: [Synth 37-85] Total of 26 linter message(s) generated.
+INFO: [Synth 37-45] Linter Run Finished!
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 8731.125 ; gain = 502.562 ; free physical = 17814 ; free virtual = 25227
+INFO: [Common 17-83] Releasing license: Synthesis
+39 Infos, 27 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+launch_runs synth_1 -jobs 16
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Tue Oct 22 23:32:48 2024] Launched synth_1...
+Run output will be captured here: /home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Device 21-9227] Part: xc7a100tcsg324-1 does not have CEAM library.
+INFO: [Project 1-454] Reading design checkpoint '/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/axi_bram_ctrl_0_ex.gen/sources_1/ip/axi_bram_ctrl_0/axi_bram_ctrl_0.dcp' for cell 'ABC_PORT/ABC0'
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 8886.125 ; gain = 0.000 ; free physical = 17984 ; free virtual = 25401
+INFO: [Netlist 29-17] Analyzing 66 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/axi_bram_ctrl_0_exdes.xdc]
+Finished Parsing XDC File [/home/madsr2d2/DTU/dds/as2/axi_bram_ctrl_0_ex/imports/axi_bram_ctrl_0_exdes.xdc]
+INFO: [Project 1-1714] 1 XPM XDC files have been applied to the design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9571.590 ; gain = 0.000 ; free physical = 17461 ; free virtual = 24864
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:16 ; elapsed = 00:00:09 . Memory (MB): peak = 9643.934 ; gain = 856.090 ; free physical = 17300 ; free virtual = 24763
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Oct 22 23:34:17 2024...
