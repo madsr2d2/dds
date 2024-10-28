@@ -82,21 +82,34 @@ begin
     reset <= '1', '0' after 180 ns;
 
     -- start logic
-    start_logic : process is
-    begin
-        start <= '0';
+    start_logic : process
+    type state_type is (WAIT_RESET, ASSERT_START, WAIT_FINISH, DONE);
+    variable state : state_type := WAIT_RESET;
+begin
+    wait until clk'event and clk = '1';  -- Only one clock wait here
+    
+    case state is
+        when WAIT_RESET =>
+            if reset = '0' then
+                start <= '1';
+                state := ASSERT_START;
+            end if;
 
-        wait until reset = '0' and clk'event and clk = '1';
-        start <= '1';
+        when ASSERT_START =>
+            if finish = '1' then
+                start <= '0';
+                state := WAIT_FINISH;
+            end if;
 
-        -- wait before accelerator is complete before deasserting the start
-        wait until clk'event and clk = '1' and finish = '1';
-        start <= '0';
+        when WAIT_FINISH =>
+            report "Test finished successfully! Simulation Stopped!" severity NOTE;
+            StopSimulation <= '1';
+            state := DONE;
 
-        wait until clk'event and clk = '1';
-        report "Test finished successfully! Simulation Stopped!" severity NOTE;
-        StopSimulation <= '1';
-    end process;
+        when DONE =>
+            null;  -- Do nothing
+    end case;
+end process;
 
     SysClk : clock
         port map(

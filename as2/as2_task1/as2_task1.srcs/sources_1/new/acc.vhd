@@ -18,20 +18,6 @@ entity acc is
   );
 end acc;
 
--- entity acc is
---     port(
---         clk    : in  bit_t;             -- The clock.
---         reset  : in  bit_t;             -- The reset signal. Active high.
---         addr   : out halfword_t;        -- Address bus for data.
---         dataR  : in  word_t;            -- The data bus.
---         dataW  : out word_t;            -- The data bus.
---         en     : out bit_t;             -- Request signal for data.
---         we     : out bit_t;             -- Read/Write signal for data.
---         start  : in  bit_t;
---         finish : out bit_t
---     );
--- end acc;
-
 architecture rtl of acc is
 
   -- State types

@@ -3,22 +3,22 @@
 # SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Fri Oct 25 15:07:30 2024
-# Process ID: 1301650
-# Current directory: /home/madsr2d2/DTU/dds/as2/as2_task_0/as2_task_0.runs/synth_1
-# Command line: vivado -log testbench.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source testbench.tcl
-# Log file: /home/madsr2d2/DTU/dds/as2/as2_task_0/as2_task_0.runs/synth_1/testbench.vds
-# Journal file: /home/madsr2d2/DTU/dds/as2/as2_task_0/as2_task_0.runs/synth_1/vivado.jou
+# Start of session at: Sat Oct 26 09:22:08 2024
+# Process ID: 1712869
+# Current directory: /home/madsr2d2/DTU/dds/as2/as2_task1
+# Command line: vivado
+# Log file: /home/madsr2d2/DTU/dds/as2/as2_task1/vivado.log
+# Journal file: /home/madsr2d2/DTU/dds/as2/as2_task1/vivado.jou
 # Running On        :madsr2d2
 # Platform          :Ubuntu
 # Operating System  :Ubuntu 22.04.5 LTS
 # Processor Detail  :13th Gen Intel(R) Core(TM) i7-1360P
-# CPU Frequency     :400.469 MHz
+# CPU Frequency     :4795.041 MHz
 # CPU Physical cores:12
 # CPU Logical cores :16
 # Host memory       :33245 MB
 # Swap memory       :2147 MB
 # Total Virtual     :35393 MB
-# Available Virtual :30914 MB
+# Available Virtual :30847 MB
 #-----------------------------------------------------------
-source testbench.tcl -notrace
+start_gui

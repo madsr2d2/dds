@@ -91,6 +91,18 @@ architecture behaviour of memory2 is
         return mem;
     end function;
 
+    -- impure function InitRamFromFile(RamFileName : in string) return ram_type is
+    -- FILE RamFile : text is in RamFileName;
+    -- variable RamFileLine : line;
+    -- variable RAM : ram_type;
+    -- begin
+    -- for I in ram_type'range loop
+    -- readline(RamFile, RamFileLine);
+    -- read(RamFileLine, RAM(I));
+    -- end loop;
+    -- return RAM;
+    -- end function;
+
     signal RAM : ram_type := InitRamFromFile(load_file_name);
 
 begin
