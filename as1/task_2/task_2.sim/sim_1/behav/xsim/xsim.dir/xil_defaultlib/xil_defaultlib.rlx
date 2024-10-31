@@ -3,10 +3,11 @@
 May 22 2024
 18:54:44
 /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/debounce.vhd,1724933288,vhdl,,,,debounce,,,,,,,,
-/home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd.vhd,1727280518,vhdl,,,,gcd,,,,,,,,
-/home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd,1727270218,vhdl,,,,gcd_tb,,,,,,,,
-/home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_top.vhd,1727349148,vhdl,,,,gcd_top,,,,,,,,
+/home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd.vhd,1727547802,vhdl,,,,gcd,,,,,,,,
+/home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd,1727519877,vhdl,,,,gcd_tb,,,,,,,,
+/home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_top.vhd,1727958245,vhdl,,,,gcd_top,,,,,,,,
 /home/madsr2d2/DTU/dds/as1/task_2/task_2.srcs/sources_1/new/gcd_opt.vhd,1727298879,vhdl,,,,gcd_opt,,,,,,,,
-/home/madsr2d2/DTU/dds/as1/task_2/task_2.srcs/sources_1/new/gcd_opt_1.vhd,1727339463,vhdl,,,,gcd_opt_1,,,,,,,,
-/home/madsr2d2/DTU/dds/as1/task_2/task_2.srcs/sources_1/new/gcd_opt_2.vhd,1727351396,vhdl,,,,gcd_opt_2,,,,,,,,
-/home/madsr2d2/DTU/dds/as1/task_2/task_2.srcs/sources_1/new/gcd_opt_3.vhd,1727348712,vhdl,,,,gcd_opt_3,,,,,,,,
+/home/madsr2d2/DTU/dds/as1/task_2/task_2.srcs/sources_1/new/gcd_opt_1.vhd,1727455237,vhdl,,,,gcd_opt_1,,,,,,,,
+/home/madsr2d2/DTU/dds/as1/task_2/task_2.srcs/sources_1/new/gcd_opt_2.vhd,1727945502,vhdl,,,,gcd_opt_2,,,,,,,,
+/home/madsr2d2/DTU/dds/as1/task_2/task_2.srcs/sources_1/new/gcd_opt_3.vhd,1727514754,vhdl,,,,gcd_opt_3,,,,,,,,
+/home/madsr2d2/DTU/dds/as1/task_2/task_2.srcs/sources_1/new/gcd_opt_4.vhd,1727377796,vhdl,,,,gcd_opt_4,,,,,,,,

@@ -1,0 +1,28 @@
+Time resolution is 1 ps
+Note: a = 57407, b = 17727, Computed GCD = 1
+Time: 1720 ns  Iteration: 0  Process: /gcd_tb/line__70  File: /home/madsr2d2/DTU/dds/as1/task_4/task4/gcd_tb.vhd
+Note: a = 51483, b = 62518, Computed GCD = 1
+Time: 4480 ns  Iteration: 0  Process: /gcd_tb/line__70  File: /home/madsr2d2/DTU/dds/as1/task_4/task4/gcd_tb.vhd
+Note: a = 26309, b = 6586, Computed GCD = 1
+Time: 12640 ns  Iteration: 0  Process: /gcd_tb/line__70  File: /home/madsr2d2/DTU/dds/as1/task_4/task4/gcd_tb.vhd
+Note: a = 17095, b = 32320, Computed GCD = 5
+Time: 14200 ns  Iteration: 0  Process: /gcd_tb/line__70  File: /home/madsr2d2/DTU/dds/as1/task_4/task4/gcd_tb.vhd
+Note: a = 55996, b = 36594, Computed GCD = 2
+Time: 15520 ns  Iteration: 0  Process: /gcd_tb/line__70  File: /home/madsr2d2/DTU/dds/as1/task_4/task4/gcd_tb.vhd
+Note: a = 2236, b = 1636, Computed GCD = 4
+Time: 16480 ns  Iteration: 0  Process: /gcd_tb/line__70  File: /home/madsr2d2/DTU/dds/as1/task_4/task4/gcd_tb.vhd
+Note: a = 53559, b = 58331, Computed GCD = 1
+Time: 18 us  Iteration: 0  Process: /gcd_tb/line__70  File: /home/madsr2d2/DTU/dds/as1/task_4/task4/gcd_tb.vhd
+Note: a = 47939, b = 31754, Computed GCD = 1
+Time: 19880 ns  Iteration: 0  Process: /gcd_tb/line__70  File: /home/madsr2d2/DTU/dds/as1/task_4/task4/gcd_tb.vhd
+Note: a = 43319, b = 49195, Computed GCD = 1
+Time: 23560 ns  Iteration: 0  Process: /gcd_tb/line__70  File: /home/madsr2d2/DTU/dds/as1/task_4/task4/gcd_tb.vhd
+Note: a = 43350, b = 55138, Computed GCD = 2
+Time: 25360 ns  Iteration: 0  Process: /gcd_tb/line__70  File: /home/madsr2d2/DTU/dds/as1/task_4/task4/gcd_tb.vhd
+Note: a = 38575, b = 36922, Computed GCD = 1
+Time: 26920 ns  Iteration: 0  Process: /gcd_tb/line__70  File: /home/madsr2d2/DTU/dds/as1/task_4/task4/gcd_tb.vhd
+Note: a = 49898, b = 45096, Computed GCD = 6
+Time: 28040 ns  Iteration: 0  Process: /gcd_tb/line__70  File: /home/madsr2d2/DTU/dds/as1/task_4/task4/gcd_tb.vhd
+Failure: Wrong result!
+Time: 28040 ns  Iteration: 0  Process: /gcd_tb/line__70  File: /home/madsr2d2/DTU/dds/as1/task_4/task4/gcd_tb.vhd
+$finish called at time : 28040 ns : File "/home/madsr2d2/DTU/dds/as1/task_4/task4/gcd_tb.vhd" Line 127

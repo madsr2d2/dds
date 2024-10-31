@@ -1,4 +1,204 @@
 Time resolution is 1 ps
+Note: a = 57407, b = 17727, c = 1, Computed GCD = 1
+Time: 1080 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 51483, b = 62518, c = 1, Computed GCD = 1
+Time: 3960 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 26309, b = 6586, c = 1, Computed GCD = 1
+Time: 8500 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 17095, b = 32320, c = 5, Computed GCD = 5
+Time: 9740 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 55996, b = 36594, c = 2, Computed GCD = 2
+Time: 10860 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 2236, b = 1636, c = 4, Computed GCD = 4
+Time: 11800 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 53559, b = 58331, c = 1, Computed GCD = 1
+Time: 13040 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 47939, b = 31754, c = 1, Computed GCD = 1
+Time: 14440 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 43319, b = 49195, c = 1, Computed GCD = 1
+Time: 15560 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 43350, b = 55138, c = 2, Computed GCD = 2
+Time: 16920 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 38575, b = 36922, c = 1, Computed GCD = 1
+Time: 18960 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 49898, b = 45096, c = 2, Computed GCD = 2
+Time: 20200 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 36291, b = 7490, c = 1, Computed GCD = 1
+Time: 21320 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 14919, b = 58364, c = 1, Computed GCD = 1
+Time: 22440 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 302, b = 40212, c = 2, Computed GCD = 2
+Time: 25880 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 29913, b = 45744, c = 3, Computed GCD = 3
+Time: 27160 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 16728, b = 18369, c = 3, Computed GCD = 3
+Time: 28260 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 44656, b = 3453, c = 1, Computed GCD = 1
+Time: 29580 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 34619, b = 23520, c = 1, Computed GCD = 1
+Time: 30860 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 35771, b = 10245, c = 1, Computed GCD = 1
+Time: 32440 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 61336, b = 8807, c = 1, Computed GCD = 1
+Time: 33940 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 49269, b = 3285, c = 3, Computed GCD = 3
+Time: 45700 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 8033, b = 21398, c = 1, Computed GCD = 1
+Time: 47240 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 61840, b = 27808, c = 16, Computed GCD = 16
+Time: 48200 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 64102, b = 6970, c = 2, Computed GCD = 2
+Time: 49480 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 62239, b = 46167, c = 1, Computed GCD = 1
+Time: 50700 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 5778, b = 26058, c = 6, Computed GCD = 6
+Time: 51980 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 40060, b = 44050, c = 10, Computed GCD = 10
+Time: 53500 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 1686, b = 7344, c = 6, Computed GCD = 6
+Time: 54380 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 5675, b = 48606, c = 1, Computed GCD = 1
+Time: 56040 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 56136, b = 2436, c = 12, Computed GCD = 12
+Time: 57560 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 26657, b = 10113, c = 1, Computed GCD = 1
+Time: 58940 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 21805, b = 51913, c = 1, Computed GCD = 1
+Time: 60160 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 17543, b = 42236, c = 1, Computed GCD = 1
+Time: 61300 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 35029, b = 49210, c = 1, Computed GCD = 1
+Time: 62420 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 54941, b = 41620, c = 1, Computed GCD = 1
+Time: 64340 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 21660, b = 25684, c = 4, Computed GCD = 4
+Time: 65400 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 60696, b = 6192, c = 72, Computed GCD = 72
+Time: 66520 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 13626, b = 37386, c = 18, Computed GCD = 18
+Time: 67480 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 7762, b = 1859, c = 1, Computed GCD = 1
+Time: 68440 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 53903, b = 56596, c = 1, Computed GCD = 1
+Time: 70800 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 32076, b = 57952, c = 4, Computed GCD = 4
+Time: 71940 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 46766, b = 49923, c = 1, Computed GCD = 1
+Time: 73460 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 51636, b = 40769, c = 1, Computed GCD = 1
+Time: 76300 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 4719, b = 33480, c = 3, Computed GCD = 3
+Time: 77440 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 48288, b = 18806, c = 2, Computed GCD = 2
+Time: 78460 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 31634, b = 17864, c = 2, Computed GCD = 2
+Time: 80180 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 59056, b = 10441, c = 1, Computed GCD = 1
+Time: 81480 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 8881, b = 11586, c = 1, Computed GCD = 1
+Time: 82600 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 20200, b = 46004, c = 4, Computed GCD = 4
+Time: 83640 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 21876, b = 63617, c = 1, Computed GCD = 1
+Time: 84920 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 17116, b = 19418, c = 2, Computed GCD = 2
+Time: 85960 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 36699, b = 4616, c = 1, Computed GCD = 1
+Time: 87300 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 40423, b = 6650, c = 1, Computed GCD = 1
+Time: 88800 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 41394, b = 22212, c = 6, Computed GCD = 6
+Time: 90420 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 43073, b = 47406, c = 1, Computed GCD = 1
+Time: 91820 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 52862, b = 55069, c = 1, Computed GCD = 1
+Time: 93440 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 28926, b = 13729, c = 1, Computed GCD = 1
+Time: 94540 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 59475, b = 45541, c = 1, Computed GCD = 1
+Time: 96040 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 64315, b = 58036, c = 1, Computed GCD = 1
+Time: 97360 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 10037, b = 25711, c = 1, Computed GCD = 1
+Time: 98420 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 20063, b = 35132, c = 1, Computed GCD = 1
+Time: 100580 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 60880, b = 45315, c = 5, Computed GCD = 5
+Time: 101660 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 52962, b = 61901, c = 7, Computed GCD = 7
+Time: 102780 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 46993, b = 17069, c = 1, Computed GCD = 1
+Time: 104040 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 24061, b = 38358, c = 1, Computed GCD = 1
+Time: 105820 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 40658, b = 26288, c = 2, Computed GCD = 2
+Time: 106940 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 4093, b = 62657, c = 1, Computed GCD = 1
+Time: 108740 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 53036, b = 40379, c = 1, Computed GCD = 1
+Time: 109940 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 50578, b = 50592, c = 2, Computed GCD = 2
+Time: 182800 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 43898, b = 5057, c = 1, Computed GCD = 1
+Time: 183900 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 39453, b = 45490, c = 1, Computed GCD = 1
+Time: 185180 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 37550, b = 35116, c = 2, Computed GCD = 2
+Time: 186600 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 24044, b = 52739, c = 1, Computed GCD = 1
+Time: 188380 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 24493, b = 55538, c = 7, Computed GCD = 7
+Time: 189360 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 40326, b = 13619, c = 1, Computed GCD = 1
+Time: 190740 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 24995, b = 14695, c = 5, Computed GCD = 5
+Time: 191760 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 60468, b = 42187, c = 1, Computed GCD = 1
+Time: 220580 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 20284, b = 4879, c = 1, Computed GCD = 1
+Time: 222340 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 28575, b = 14561, c = 1, Computed GCD = 1
+Time: 223720 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 275, b = 32392, c = 1, Computed GCD = 1
+Time: 226880 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 50043, b = 45857, c = 7, Computed GCD = 7
+Time: 228240 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 16215, b = 23167, c = 1, Computed GCD = 1
+Time: 231420 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 49271, b = 33083, c = 1, Computed GCD = 1
+Time: 232840 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 13010, b = 9066, c = 2, Computed GCD = 2
+Time: 233860 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 1702, b = 10994, c = 46, Computed GCD = 46
+Time: 234680 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 49334, b = 47418, c = 2, Computed GCD = 2
+Time: 236660 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 26737, b = 42952, c = 1, Computed GCD = 1
+Time: 237680 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 61533, b = 2078, c = 1, Computed GCD = 1
+Time: 239400 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 57623, b = 13231, c = 1, Computed GCD = 1
+Time: 240540 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 21171, b = 60911, c = 1, Computed GCD = 1
+Time: 242100 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 10634, b = 10593, c = 1, Computed GCD = 1
+Time: 247960 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 12411, b = 10704, c = 3, Computed GCD = 3
+Time: 248900 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 58491, b = 32516, c = 1, Computed GCD = 1
+Time: 250500 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 34569, b = 5956, c = 1, Computed GCD = 1
+Time: 251620 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 745, b = 14882, c = 1, Computed GCD = 1
+Time: 253460 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 45073, b = 6073, c = 1, Computed GCD = 1
+Time: 254980 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 35634, b = 24191, c = 1, Computed GCD = 1
+Time: 256140 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 33855, b = 18715, c = 5, Computed GCD = 5
+Time: 257180 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+Note: a = 35682, b = 8563, c = 1, Computed GCD = 1
+Time: 259740 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
 Note: Tests succeeded!
-Time: 7 us  Iteration: 0  Process: /gcd_tb/line__70  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
-$stop called at time : 7 us : File "/home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd" Line 127
+Time: 259880 ns  Iteration: 0  Process: /gcd_tb/line__55  File: /home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd
+$stop called at time : 259880 ns : File "/home/madsr2d2/DTU/dds/as1/task_2/02203_A1_code/task2/gcd_tb.vhd" Line 118

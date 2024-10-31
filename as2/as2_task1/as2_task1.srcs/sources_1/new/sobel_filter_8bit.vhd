@@ -17,15 +17,22 @@ architecture rtl of sobel_filter_8bit is
 
 begin
   process(all)
+    variable temp_gx, temp_gy : integer;
   begin
-    gx <= to_integer(signed(sobel_in.line_0(7 downto 0)) - signed(sobel_in.line_0(23 downto 16))) +
-          2 * to_integer(signed(sobel_in.line_1(7 downto 0)) - signed(sobel_in.line_1(15 downto 8))) +
-          to_integer(signed(sobel_in.line_2(7 downto 0)) - signed(sobel_in.line_2(23 downto 16)));
+    -- Convert each unsigned 8-bit segment to signed 9-bit values before subtraction
+    temp_gx := to_integer(signed('0' & sobel_in.line_0(7 downto 0)) - signed('0' & sobel_in.line_0(23 downto 16))) +
+               2 * to_integer(signed('0' & sobel_in.line_1(7 downto 0)) - signed('0' & sobel_in.line_1(15 downto 8))) +
+               to_integer(signed('0' & sobel_in.line_2(7 downto 0)) - signed('0' & sobel_in.line_2(23 downto 16)));
 
-    gy <= to_integer(signed(sobel_in.line_2(23 downto 16)) - signed(sobel_in.line_0(23 downto 16))) +
-          2 * to_integer(signed(sobel_in.line_2(15 downto 8)) - signed(sobel_in.line_0(15 downto 8))) +
-          to_integer(signed(sobel_in.line_2(7 downto 0)) - signed(sobel_in.line_0(7 downto 0)));
+    temp_gy := to_integer(signed('0' & sobel_in.line_2(23 downto 16)) - signed('0' & sobel_in.line_0(23 downto 16))) +
+               2 * to_integer(signed('0' & sobel_in.line_2(15 downto 8)) - signed('0' & sobel_in.line_0(15 downto 8))) +
+               to_integer(signed('0' & sobel_in.line_2(7 downto 0)) - signed('0' & sobel_in.line_0(7 downto 0)));
 
+    -- Assign intermediate results to signals
+    gx <= temp_gx;
+    gy <= temp_gy;
+
+    -- Calculate Sobel result as sum of the absolute gx and gy
     sobel_result <= abs(gx) + abs(gy);
     
     -- Clip the Sobel result to fit 8 bits

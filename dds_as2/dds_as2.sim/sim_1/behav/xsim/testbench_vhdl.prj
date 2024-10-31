@@ -1,0 +1,18 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../02203_A2_code/task2/clock.vhd" \
+"../../../../02203_A2_code/task2/memory2.vhd" \
+"../../../../02203_A2_code/task2/types.vhd" \
+"../../../../02203_A2_code/task3/types.vhd" \
+"../../../../../as2/as2_task1/as2_task1.srcs/sources_1/new/types_pkg.vhd" \
+
+vhdl2008 xil_defaultlib  \
+"../../../../02203_A2_code/task2/acc2.vhd" \
+"../../../../../as2/as2_task1/as2_task1.srcs/sources_1/new/ram_dp.vhd" \
+"../../../../../as2/as2_task1/as2_task1.srcs/sources_1/new/sobel_filter_8bit.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../02203_A2_code/task2/test2.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,341 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Wed Sep 25 18:07:40 2024
+# Process ID: 57594
+# Current directory: /home/madsr2d2/DTU/dds/as1
+# Command line: vivado
+# Log file: /home/madsr2d2/DTU/dds/as1/vivado.log
+# Journal file: /home/madsr2d2/DTU/dds/as1/vivado.jou
+# Running On        :madsr2d2
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 22.04.5 LTS
+# Processor Detail  :13th Gen Intel(R) Core(TM) i7-1360P
+# CPU Frequency     :4993.407 MHz
+# CPU Physical cores:12
+# CPU Logical cores :16
+# Host memory       :33254 MB
+# Swap memory       :2147 MB
+# Total Virtual     :35401 MB
+# Available Virtual :32910 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/madsr2d2/DTU/dds/as1/task_2/task_2.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source gcd_tb.tcl
+run -all
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source gcd_tb.tcl
+run -all
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source gcd_tb.tcl
+run -all
+update_compile_order -fileset sources_1
+run -all
+run -all
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+open_run synth_1 -name synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+close_design
+run -all
+opt_design
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+refresh_design
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+relaunch_sim
+relaunch_sim
+run -all
+run all
+run all
+restart
+run all
+restart
+run all
+restart
+run all
+update_compile_order -fileset sources_1
+reset_run synth_1
+close_sim
+launch_simulation
+source gcd_tb.tcl
+run all
+run -all
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+close_sim
+refresh_design
+launch_simulation
+source gcd_tb.tcl
+run -all
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source gcd_tb.tcl
+run -all
+update_compile_order -fileset sources_1
+run -all
+restart
+run all
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+refresh_design
+refresh_design
+run -all
+refresh_design
+run -all
+close [ open /home/madsr2d2/DTU/dds/as1/task_2/task_2.srcs/sources_1/new/gcd_opt_1.vhd w ]
+add_files /home/madsr2d2/DTU/dds/as1/task_2/task_2.srcs/sources_1/new/gcd_opt_1.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+refresh_design
+update_compile_order -fileset sources_1
+refresh_design
+run -all
+refresh_design
+update_compile_order -fileset sources_1
+refresh_design
+update_compile_order -fileset sources_1
+refresh_design
+run -all
+close_sim
+launch_simulation
+source gcd_tb.tcl
+run -all
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source gcd_tb.tcl
+run -all
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source gcd_tb.tcl
+run -all
+close_sim
+launch_simulation
+source gcd_tb.tcl
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source gcd_tb.tcl
+run -all
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source gcd_tb.tcl
+run -all
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source gcd_tb.tcl
+run -all
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source gcd_tb.tcl
+run -all
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source gcd_tb.tcl
+run -all
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+restart
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+close_sim
+launch_simulation
+source gcd_tb.tcl
+run -all
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source gcd_tb.tcl
+run -all
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source gcd_tb.tcl
+run -all
+close_sim
+launch_simulation
+refresh_design
+refresh_design
+launch_simulation
+source gcd_tb.tcl
+run -all
+close_sim
+launch_simulation
+refresh_design
+refresh_design
+launch_simulation
+source gcd_tb.tcl
+run -all
+close_sim
+launch_simulation
+source gcd_tb.tcl
+run -all
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source gcd_tb.tcl
+run -all
+close_sim

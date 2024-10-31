@@ -1,0 +1,60 @@
+from PIL import Image
+import numpy as np
+
+
+# Load the PGM image
+def load_pgm_image(filename):
+    with Image.open(filename) as img:
+        img = img.convert("L")  # Convert to grayscale if not already
+        return np.array(img)
+
+
+# Apply Sobel filter to the image
+def sobel_filter(image):
+    # Define Sobel kernels for x and y directions
+    sobel_x = np.array([[1, 0, -1], [2, 0, -2], [1, 0, -1]])
+
+    sobel_y = np.array([[1, 2, 1], [0, 0, 0], [-1, -2, -1]])
+
+    # Convolve the image with the Sobel kernels
+    gx = convolve(image, sobel_x)
+    gy = convolve(image, sobel_y)
+
+    # Calculate the gradient magnitude and clip values to 8-bit range
+    sobel_magnitude = np.sqrt(gx**2 + gy**2)
+    sobel_magnitude = np.clip(sobel_magnitude, 0, 255).astype(np.uint8)
+
+    return sobel_magnitude
+
+
+# Convolution function to apply the Sobel kernels
+def convolve(image, kernel):
+    output = np.zeros_like(image)
+    padded_image = np.pad(image, ((1, 1), (1, 1)), mode="constant")
+
+    for i in range(image.shape[0]):
+        for j in range(image.shape[1]):
+            region = padded_image[i : i + 3, j : j + 3]
+            output[i, j] = np.sum(region * kernel)
+
+    return output
+
+
+# Save the processed image
+def save_image(image_array, output_filename):
+    Image.fromarray(image_array).save(output_filename)
+
+
+# Main script
+if __name__ == "__main__":
+    # Load the PGM image
+    input_filename = "input.pgm"  # Replace with your PGM file
+    output_filename = "output_sobel.pgm"
+    image = load_pgm_image(input_filename)
+
+    # Apply Sobel filter
+    sobel_image = sobel_filter(image)
+
+    # Save the result
+    save_image(sobel_image, output_filename)
+    print(f"Sobel-filtered image saved as {output_filename}")

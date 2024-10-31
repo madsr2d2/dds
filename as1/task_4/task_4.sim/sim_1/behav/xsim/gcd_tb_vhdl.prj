@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl2008 xil_defaultlib  \
+"../../../../task4/comp.vhd" \
+"../../../../task4/datapath.vhd" \
+"../../../../task4/fsm.vhd" \
+"../../../../task4/gcd_module.vhd" \
+"../../../../task4/gcd_tb.vhd" \
+
+# Do not sort compile order
+nosort

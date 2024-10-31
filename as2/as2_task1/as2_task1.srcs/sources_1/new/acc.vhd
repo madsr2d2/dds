@@ -135,7 +135,7 @@ begin
         internal_addr <= internal_addr + 1; -- Increment external RAM address
         buffer_addr <= buffer_addr + 1; -- Increment buffer RAM address
         addr <= std_logic_vector(to_unsigned(internal_addr, 16)); -- Set read address
-      else
+      elsif state = IDLE then
         line_index <= 0;
       end if;
 

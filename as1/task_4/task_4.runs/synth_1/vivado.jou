@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Fri Sep 27 21:10:16 2024
+# Process ID: 1714461
+# Current directory: /home/madsr2d2/DTU/dds/as1/task_4/task_4.runs/synth_1
+# Command line: vivado -log gcd_module.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source gcd_module.tcl
+# Log file: /home/madsr2d2/DTU/dds/as1/task_4/task_4.runs/synth_1/gcd_module.vds
+# Journal file: /home/madsr2d2/DTU/dds/as1/task_4/task_4.runs/synth_1/vivado.jou
+# Running On        :madsr2d2
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 22.04.5 LTS
+# Processor Detail  :13th Gen Intel(R) Core(TM) i7-1360P
+# CPU Frequency     :4967.608 MHz
+# CPU Physical cores:12
+# CPU Logical cores :16
+# Host memory       :33254 MB
+# Swap memory       :2147 MB
+# Total Virtual     :35401 MB
+# Available Virtual :29775 MB
+#-----------------------------------------------------------
+source gcd_module.tcl -notrace

@@ -80,7 +80,7 @@ begin
         else
           --C <= (others => '0');
           -- Update reg_a or reg_b based on the subtraction result
-          if temp_a_minus_b(15) = '0' then
+          if temp_a_minus_b > 0 then
             next_reg_a <= temp_a_minus_b;  -- reg_a := reg_a - reg_b
           else
             next_reg_b <= temp_b_minus_a;  -- reg_b := reg_b - reg_a
