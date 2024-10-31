@@ -31,6 +31,7 @@ architecture rtl of acc is
   constant ADDR_PER_LINE : NATURAL := image_width/(word_width/pixel_width) -  1;
   -- constant WRITE_OFFSET : NATURAL := ADDR_PER_LINE*image_height;
 
+  -- constant WRITE_OFFSET : NATURAL := (((352*288)*8)/32); -- TODO is this right
   constant WRITE_OFFSET : NATURAL := (((352*288)*8)/32); -- TODO is this right
 
   signal line_index     : NATURAL := 0;
@@ -147,18 +148,25 @@ begin
 
       
       when LOAD_BUF_2 =>
-        buffer_addr <= (internal_addr mod 88);
         internal_addr_temp <= internal_addr + 1;
         internal_addr <= internal_addr + WRITE_OFFSET;
+
+        if buffer_addr = 1 then
+          buffer_addr <= (internal_addr mod 88);
+          padding(0) <= buffer_dout_b_internal(0)(31 downto 16);
+          padding(1) <= buffer_dout_b_internal(1)(31 downto 16);
+          padding(2) <= buffer_dout_b_internal(2)(31 downto 16);
+        end if;
+
+
+      when WRITE_SOBEL =>
+        buffer_addr <= (internal_addr mod 88);
+        internal_addr <= internal_addr - WRITE_OFFSET + 1;
+        internal_addr <= internal_addr_temp; 
 
         padding(0) <= buffer_dout_b_internal(0)(31 downto 16);
         padding(1) <= buffer_dout_b_internal(1)(31 downto 16);
         padding(2) <= buffer_dout_b_internal(2)(31 downto 16);
-
-
-      when WRITE_SOBEL =>
-        internal_addr <= internal_addr - WRITE_OFFSET + 1;
-        internal_addr <= internal_addr_temp; 
 
 
         -- if buffer_addr = 0 then
@@ -289,11 +297,12 @@ begin
     when LOAD_BUF_2 =>
       en <= '1';
 
-
-      buffer_we_internala(2) <= '1'; -- Enable write to buffer 1
+      if buffer_addr = 1 then
+        buffer_we_internala(2) <= '1'; -- Enable write to buffer 1
+      end if;
       next_state <= WRITE_SOBEL;
 
-      if line_index > image_height - 2 then
+      if line_index > image_height- 2 then
         next_state <= IDLE;
         finish <= '1';
       end if;
