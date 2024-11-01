@@ -29,9 +29,7 @@ architecture rtl of acc is
   constant pixel_width  : NATURAL := 8;
   constant word_width   : NATURAL := 32;
   constant ADDR_PER_LINE : NATURAL := image_width/(word_width/pixel_width) -  1;
-  -- constant WRITE_OFFSET : NATURAL := ADDR_PER_LINE*image_height;
 
-  -- constant WRITE_OFFSET : NATURAL := (((352*288)*8)/32); -- TODO is this right
   constant WRITE_OFFSET : NATURAL := (((352*288)*8)/32); -- TODO is this right
 
   signal line_index     : NATURAL := 0;
@@ -55,7 +53,8 @@ architecture rtl of acc is
   -- Buffer signals and constants
   constant BUFFER_DATA_WIDTH : NATURAL := word_width; 
   constant BUFFER_ADDR_WIDTH : NATURAL := 7; 
-  signal buffer_addr : NATURAL := 0; 
+  signal buffer_write_addr : INTEGER := -1; 
+  signal buffer_read_addr : INTEGER := 0; 
 
   type buffer_we_array_type is array(0 to 2) of STD_LOGIC;
   type buffer_data_array_type is array(0 to 2) of STD_LOGIC_VECTOR(BUFFER_DATA_WIDTH - 1 downto 0);
@@ -109,11 +108,11 @@ begin
       port map (
         clk      => clk,
         we_a     => buffer_we_a(i),
-        addr_a   => std_logic_vector(to_unsigned(buffer_addr, BUFFER_ADDR_WIDTH)),
+        addr_a   => std_logic_vector(to_unsigned(buffer_write_addr, BUFFER_ADDR_WIDTH)),
         din_a    => dataR,
         dout_a   => open,
         we_b     => '0',  -- Port B for reading (Sobel processing)
-        addr_b   => std_logic_vector(to_unsigned(buffer_addr, BUFFER_ADDR_WIDTH)),
+        addr_b   => std_logic_vector(to_unsigned(buffer_read_addr, BUFFER_ADDR_WIDTH)),
         din_b    => (others => '0'),
         dout_b   => buffer_dout_b(i)
       );
@@ -122,100 +121,62 @@ begin
 -- Sequential process for FSM and data operations (FSMD approach)
 process(all)
 begin
-  -- Set default values
-  -- buffer_we_internala <= (others => '0');
-
 
   if reset = '1' then
     state <= IDLE;
 
   elsif rising_edge(clk) then
-    state <= next_state; -- Update state
-
+    state <= next_state;
+    
     case state is
       when IDLE =>
         line_index <= 0;
         internal_addr <= 0;
+        buffer_read_addr <= 0;
+        buffer_write_addr <= -1;
 
       when LOAD_BUF_0 =>
-        buffer_addr <= (internal_addr mod 88);
         internal_addr <= internal_addr + 1;
 
-      
-      when LOAD_BUF_1 =>
-        buffer_addr <= (internal_addr mod 88);
-        internal_addr <= internal_addr + 1;
-
-      
-      when LOAD_BUF_2 =>
-        internal_addr_temp <= internal_addr + 1;
-        internal_addr <= internal_addr + WRITE_OFFSET;
-
-        if buffer_addr = 1 then
-          buffer_addr <= (internal_addr mod 88);
-          padding(0) <= buffer_dout_b_internal(0)(31 downto 16);
-          padding(1) <= buffer_dout_b_internal(1)(31 downto 16);
-          padding(2) <= buffer_dout_b_internal(2)(31 downto 16);
+        if buffer_write_addr = 87 then
+          buffer_write_addr <= 0;
+        else
+          buffer_write_addr <= buffer_write_addr + 1;
         end if;
 
+      when LOAD_BUF_1 =>
+        internal_addr <= internal_addr + 1;
+        
+        if buffer_write_addr = 87 then
+          buffer_write_addr <= 0;
+        else
+          buffer_write_addr <= buffer_write_addr + 1;
+        end if;
 
-      when WRITE_SOBEL =>
-        buffer_addr <= (internal_addr mod 88);
-        internal_addr <= internal_addr - WRITE_OFFSET + 1;
-        internal_addr <= internal_addr_temp; 
+      when LOAD_BUF_2 =>
 
+        if buffer_write_addr = 87 then
+          buffer_write_addr <= 0;
+        else
+          buffer_write_addr <= buffer_write_addr + 1;
+        end if;
+      
+        buffer_read_addr <= buffer_write_addr;
+        internal_addr_temp <= internal_addr;
+        internal_addr <= internal_addr - 1 + WRITE_OFFSET;
         padding(0) <= buffer_dout_b_internal(0)(31 downto 16);
         padding(1) <= buffer_dout_b_internal(1)(31 downto 16);
         padding(2) <= buffer_dout_b_internal(2)(31 downto 16);
 
+      when WRITE_SOBEL =>
+        internal_addr <= internal_addr_temp + 1; 
+        buffer_read_addr <= buffer_write_addr;
 
-        -- if buffer_addr = 0 then
-        --   -- Sobel filter for pixel n - 1
-        --   sobel_in(0).line_0 <= buffer_dout_b_internal(0)(7 downto 0) & buffer_dout_b_internal(0)(7 downto 0) & buffer_dout_b_internal(0)(7 downto 0); 
-        --   sobel_in(0).line_1 <= buffer_dout_b_internal(1)(7 downto 0) & buffer_dout_b_internal(1)(7 downto 0);
-        --   sobel_in(0).line_2 <= buffer_dout_b_internal(2)(7 downto 0) & buffer_dout_b_internal(2)(7 downto 0) & buffer_dout_b_internal(2)(7 downto 0);
-        --
-        --   -- Sobel on pixel n
-        --   sobel_in(1).line_0 <= buffer_dout_b_internal(0)(15 downto 8) & buffer_dout_b_internal(0)(7 downto 0) & buffer_dout_b_internal(0)(15 downto 8);
-        --   sobel_in(1).line_1 <= buffer_dout_b_internal(1)(15 downto 8) & buffer_dout_b_internal(1)(15 downto 8);
-        --   sobel_in(1).line_2 <= buffer_dout_b_internal(2)(15 downto 8) & buffer_dout_b_internal(2)(7 downto 0) & buffer_dout_b_internal(2)(15 downto 8);
-        --
-        --   -- Sobel on pixel n + 1
-        --   sobel_in(2).line_0 <= buffer_dout_b_internal(0)(23 downto 0);
-        --   sobel_in(2).line_1 <= buffer_dout_b_internal(1)(23 downto 16) & buffer_dout_b_internal(1)(7 downto 0);
-        --   sobel_in(2).line_2 <= buffer_dout_b_internal(2)(23 downto 0);
-        --
-        --   -- Sobel on pixel n + 2
-        --   sobel_in(3).line_0 <= buffer_dout_b_internal(0)(31 downto 8);
-        --   sobel_in(3).line_1 <= buffer_dout_b_internal(1)(31 downto 24) & buffer_dout_b_internal(1)(15 downto 8);
-        --   sobel_in(3).line_2 <= buffer_dout_b_internal(2)(31 downto 8);
-        --
-        -- else
-        --   -- Sobel filter for pixel n - 1
-        --   sobel_in(0).line_0 <= buffer_dout_b_internal(0)(7 downto 0) & padding(0); 
-        --   sobel_in(0).line_1 <= buffer_dout_b_internal(1)(7 downto 0) & padding(1)(7 downto 0);
-        --   sobel_in(0).line_2 <= buffer_dout_b_internal(2)(7 downto 0) & padding(2);
-        --
-        --   -- Sobel on pixel n
-        --   sobel_in(1).line_0 <= buffer_dout_b_internal(0)(15 downto 0) & padding(0)(15 downto 8);
-        --   sobel_in(1).line_1 <= buffer_dout_b_internal(1)(15 downto 8) & padding(1)(15 downto 8);
-        --   sobel_in(1).line_2 <= buffer_dout_b_internal(2)(15 downto 0) & padding(2)(15 downto 8);
-        --
-        --   -- Sobel on pixel n + 1
-        --   sobel_in(2).line_0 <= buffer_dout_b_internal(0)(23 downto 0);
-        --   sobel_in(2).line_1 <= buffer_dout_b_internal(1)(23 downto 16) & buffer_dout_b_internal(1)(7 downto 0);
-        --   sobel_in(2).line_2 <= buffer_dout_b_internal(2)(23 downto 0);
-        --
-        --   -- Sobel on pixel n + 2
-        --   sobel_in(3).line_0 <= buffer_dout_b_internal(0)(31 downto 8);
-        --   sobel_in(3).line_1 <= buffer_dout_b_internal(1)(31 downto 24) & buffer_dout_b_internal(1)(15 downto 8);
-        --   sobel_in(3).line_2 <= buffer_dout_b_internal(2)(31 downto 8);
-        -- end if;
     end case;
 
-    if buffer_addr = 0 and internal_addr > 1 and we /= '1' then
+    if buffer_write_addr = 0 and internal_addr > 1 and we /= '1' then
       line_index <= line_index + 1;
-      if line_index > 2 then
+      if line_index > 1 then
         if buffer_index = 2 then
           buffer_index <= 0;
         else
@@ -277,29 +238,33 @@ begin
     when LOAD_BUF_0 =>
       en <= '1';
       
-      if buffer_addr = 0 and internal_addr > 1 then
-          next_state <= LOAD_BUF_1;
-        buffer_we_internala(1) <= '1'; -- Enable write to buffer 1
-      else
+      if buffer_write_addr /= -1 then
         buffer_we_internala(0) <= '1'; -- Enable write to buffer 0
       end if;
 
+      if buffer_write_addr = 87 then
+        next_state <= LOAD_BUF_1;
+      else
+        next_state <= LOAD_BUF_0;
+      end if;  
+
     when LOAD_BUF_1 =>
       en <= '1';
+      buffer_we_internala(1) <= '1'; -- Enable write to buffer 0
 
-      if buffer_addr = 0 then
+      if buffer_write_addr = 87 then
         next_state <= LOAD_BUF_2;
-        buffer_we_internala(2) <= '1'; -- Enable write to buffer 1
       else
-        buffer_we_internala(1) <= '1'; -- Enable write to buffer 1
-      end if;
+        next_state <= LOAD_BUF_1;
+      end if;  
 
     when LOAD_BUF_2 =>
       en <= '1';
 
-      if buffer_addr = 1 then
+      if buffer_write_addr = 0  and line_index < 2 then
         buffer_we_internala(2) <= '1'; -- Enable write to buffer 1
       end if;
+
       next_state <= WRITE_SOBEL;
 
       if line_index > image_height- 2 then
@@ -317,7 +282,7 @@ begin
       en <= '1';
       next_state <= LOAD_BUF_2;
 
-      if buffer_addr = 0 then
+      if buffer_read_addr = 0 then
         -- Sobel filter for pixel n - 1
         sobel_in(0).line_0 <= buffer_dout_b_internal(0)(7 downto 0) & buffer_dout_b_internal(0)(7 downto 0) & buffer_dout_b_internal(0)(7 downto 0); 
         sobel_in(0).line_1 <= buffer_dout_b_internal(1)(7 downto 0) & buffer_dout_b_internal(1)(7 downto 0);
