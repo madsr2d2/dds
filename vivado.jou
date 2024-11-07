@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Nov  6 17:31:02 2024
+# Process ID: 307223
+# Current directory: /home/madsr2d2/DTU/dds
+# Command line: vivado
+# Log file: /home/madsr2d2/DTU/dds/vivado.log
+# Journal file: /home/madsr2d2/DTU/dds/vivado.jou
+# Running On: madsr2d2, OS: Linux, CPU Frequency: 529.771 MHz, CPU Physical cores: 12, Host memory: 33245 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/madsr2d2/DTU/dds/dds_as2/dds_as2.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source testbench.tcl
+run all
+restart
+run all

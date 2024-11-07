@@ -70,6 +70,7 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
+set_msg_config -id {Common 17-41} -limit 10000000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a100tcsg324-1
 
@@ -85,10 +86,13 @@ set_property ip_output_repo /home/madsr2d2/DTU/dds/dds_as2/dds_as2.cache/ip [cur
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_vhdl -library xil_defaultlib /home/madsr2d2/DTU/dds/as2/as2_task1/as2_task1.srcs/sources_1/new/types_pkg.vhd
+read_vhdl -library xil_defaultlib {
+  /home/madsr2d2/DTU/dds/as2/as2_task1/as2_task1.srcs/sources_1/new/types_pkg.vhd
+  /home/madsr2d2/DTU/dds/dds_as2/02203_A2_code/task2/types_pkg.vhd
+}
 read_vhdl -vhdl2008 -library xil_defaultlib {
-  /home/madsr2d2/DTU/dds/as2/as2_task1/as2_task1.srcs/sources_1/new/ram_dp.vhd
-  /home/madsr2d2/DTU/dds/as2/as2_task1/as2_task1.srcs/sources_1/new/sobel_filter_8bit.vhd
+  /home/madsr2d2/DTU/dds/dds_as2/02203_A2_code/task2/ram_dp.vhd
+  /home/madsr2d2/DTU/dds/dds_as2/02203_A2_code/task2/sobel_filter_8bit.vhd
   /home/madsr2d2/DTU/dds/dds_as2/02203_A2_code/task2/acc2.vhd
 }
 OPTRACE "Adding files" END { }

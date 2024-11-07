@@ -1,0 +1,7 @@
+Time resolution is 1 ps
+Failure: Processed image has been saved to: /home/madsr2d2/DTU/dds/as2/as2_task_0/pic1.pgm_result.pgm
+Time: 4027440 ns  Iteration: 3  Process: /testbench/Memory/line__126  File: /home/madsr2d2/DTU/dds/dds_as2/02203_A2_code/task2/memory2.vhd
+$finish called at time : 4027440 ns : File "/home/madsr2d2/DTU/dds/dds_as2/02203_A2_code/task2/memory2.vhd" Line 172
+Failure: Processed image has been saved to: /home/madsr2d2/DTU/dds/as2/as2_task_0/pic1.pgm_result.pgm
+Time: 4027440 ns  Iteration: 3  Process: /testbench/Memory/line__126  File: /home/madsr2d2/DTU/dds/dds_as2/02203_A2_code/task2/memory2.vhd
+$finish called at time : 4027440 ns : File "/home/madsr2d2/DTU/dds/dds_as2/02203_A2_code/task2/memory2.vhd" Line 172

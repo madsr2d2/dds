@@ -200,6 +200,7 @@ begin
   sobel_in(0) <= (others => (others => '0'));
   sobel_in(1) <= (others => (others => '0'));
   sobel_in(2) <= (others => (others => '0'));
+  sobel_in(3) <= (others => (others => '0'));
 
   -- Rotate buffers
   case buffer_index is 

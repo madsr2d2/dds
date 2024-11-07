@@ -2,12 +2,12 @@
 2020.2
 Oct 13 2023
 20:21:30
-/home/madsr2d2/DTU/dds/as2/as2_task1/as2_task1.srcs/sources_1/new/ram_dp.vhd,1730100595,vhdl2008,,,,ram_dp,,,,,,,,
-/home/madsr2d2/DTU/dds/as2/as2_task1/as2_task1.srcs/sources_1/new/sobel_filter_8bit.vhd,1730145638,vhdl2008,,,,sobel_filter_8bit,,,,,,,,
-/home/madsr2d2/DTU/dds/as2/as2_task1/as2_task1.srcs/sources_1/new/types_pkg.vhd,1730100595,vhdl,/home/madsr2d2/DTU/dds/dds_as2/02203_A2_code/task2/acc2.vhd,,,types_pkg,,,,,,,,
-/home/madsr2d2/DTU/dds/dds_as2/02203_A2_code/task2/acc2.vhd,1730504703,vhdl2008,/home/madsr2d2/DTU/dds/dds_as2/02203_A2_code/task3/top.vhd,,,acc,,,,,,,,
+/home/madsr2d2/DTU/dds/as2/as2_task1/as2_task1.srcs/sources_1/new/types_pkg.vhd,1730100595,vhdl,,,,types_pkg,,,,,,,,
+/home/madsr2d2/DTU/dds/dds_as2/02203_A2_code/task2/acc2.vhd,1730506274,vhdl2008,/home/madsr2d2/DTU/dds/dds_as2/02203_A2_code/task3/top.vhd,,,acc,,,,,,,,
 /home/madsr2d2/DTU/dds/dds_as2/02203_A2_code/task2/clock.vhd,1730101957,vhdl,,,,clock,,,,,,,,
 /home/madsr2d2/DTU/dds/dds_as2/02203_A2_code/task2/memory2.vhd,1730126294,vhdl,,,,memory2,,,,,,,,
+/home/madsr2d2/DTU/dds/dds_as2/02203_A2_code/task2/ram_dp.vhd,1730542544,vhdl2008,,,,ram_dp,,,,,,,,
+/home/madsr2d2/DTU/dds/dds_as2/02203_A2_code/task2/sobel_filter_8bit.vhd,1730542602,vhdl2008,,,,sobel_filter_8bit,,,,,,,,
 /home/madsr2d2/DTU/dds/dds_as2/02203_A2_code/task2/test2.vhd,1730119783,vhdl,,,,testbench,,,,,,,,
 /home/madsr2d2/DTU/dds/dds_as2/02203_A2_code/task2/types.vhd,1730101957,vhdl,,,,,,,,,,,,
 /home/madsr2d2/DTU/dds/dds_as2/02203_A2_code/task3/clock_divider.vhd,1730101957,vhdl,/home/madsr2d2/DTU/dds/dds_as2/02203_A2_code/task3/top.vhd,,,clock_divider,,,,,,,,
